@@ -1,12 +1,12 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.1/AndrewSub-Patch-1.1.1.zip",
-  "sha256": "579a98ed6360a9a186838eb1feb23411bac0e9f0f4a79c352f13d976eeec7d42",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.2/AndrewSub-Patch-1.1.2.zip",
+  "sha256": "5a6a85cacf0aaadc5e1dbb8f8b96b04f79d1354e81b76827524246d55b97938f",
   "required": false,
   "notes": [
-    "Đổi tên thương hiệu hiển thị thống nhất từ VICDub AI sang AndrewSub.",
-    "Đổi tiêu đề cửa sổ, hộp thoại và thông báo đăng nhập sang AndrewSub.",
-    "Giữ nguyên toàn bộ sửa lỗi OCR, checkpoint và đồng bộ voice của bản 1.1.0."
+    "Bổ sung khối cập nhật ứng dụng ở đầu tab Cập nhật.",
+    "Có nút Kiểm tra cập nhật và Cập nhật ngay kèm thanh tiến trình tải.",
+    "Tự khôi phục địa chỉ kênh AndrewSub-Updates cho cấu hình cũ bị để trống."
   ]
 }
