@@ -1,15 +1,15 @@
 {
-  "version": "1.0.9",
+  "version": "1.1.0",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.9/AndrewSubAI-Patch-1.0.9.zip",
-  "sha256": "e50277fc11ab176b5b430d645fae6aff1170aca9c49372cbca29b31a6ea68d8b",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.0/AndrewSubAI-Patch-1.1.0.zip",
+  "sha256": "7900526eef95b7718fdc823797072dda5f0ddf33b2efba991bf0e6f4cd7bc7f3",
   "required": false,
   "notes": [
-    "Giữ phụ đề chớp nhanh chỉ xuất hiện một frame làm ứng viên cứu hộ OCR.",
-    "Dùng mask ổn định cho câu thường và mask thô có điều kiện cho nhánh recall-first.",
-    "Không quét lại toàn bộ video; chỉ tăng số ảnh OCR khi phát hiện ứng viên nghi bị lọt.",
-    "Ẩn cửa sổ CMD khi FFmpeg, VideoSubFinder và tiến trình cài thành phần chạy nền.",
-    "Làm sạch cục bộ các dòng tiếng Trung có lõi chữ rõ, không gửi OCR lại vô ích.",
-    "Gom các dòng thật sự nghi nhiễu thành lô 8–20 ảnh và chia cho nhiều tài khoản xử lý song song."
+    "Khóa montage OCR tối đa 20 ảnh và xác nhận đầy đủ ID đúng thứ tự trước khi nhận kết quả.",
+    "Tự chia nhỏ batch OCR lỗi đến từng ảnh, thử luân phiên tối đa 4 tài khoản và tiếp tục từ checkpoint.",
+    "Đồng bộ checkpoint với đúng lần quét, không còn mở ảnh cũ bằng timestamp của kết quả mới.",
+    "Ổn định nét chữ theo thời gian và loại tín hiệu sáng chỉ xuất hiện một frame để giảm phụ đề lặp/rác.",
+    "Giữ phụ đề nhanh từ hai frame trở lên khi quét 20–25 FPS.",
+    "Đồng bộ voice dài bằng co giãn cục bộ timeline video, không cắt khoảng lặng trong file voice."
   ]
 }
