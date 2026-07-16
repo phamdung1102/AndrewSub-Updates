@@ -1,0 +1,10 @@
+{
+  "version": "1.0.5",
+  "type": "installer",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.5/AndrewSubAI-Setup-1.0.5.exe",
+  "sha256": "ff2d4c40d9013ce3267556c72c699301b98af68431ddf73efc6a541a41ca796c",
+  "required": false,
+  "notes": [
+    "Khởi tạo kênh cập nhật tự động cho AndrewSub AI."
+  ]
+}
