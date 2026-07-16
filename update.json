@@ -1,15 +1,12 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.0/AndrewSubAI-Patch-1.1.0.zip",
-  "sha256": "7900526eef95b7718fdc823797072dda5f0ddf33b2efba991bf0e6f4cd7bc7f3",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.1/AndrewSub-Patch-1.1.1.zip",
+  "sha256": "579a98ed6360a9a186838eb1feb23411bac0e9f0f4a79c352f13d976eeec7d42",
   "required": false,
   "notes": [
-    "Khóa montage OCR tối đa 20 ảnh và xác nhận đầy đủ ID đúng thứ tự trước khi nhận kết quả.",
-    "Tự chia nhỏ batch OCR lỗi đến từng ảnh, thử luân phiên tối đa 4 tài khoản và tiếp tục từ checkpoint.",
-    "Đồng bộ checkpoint với đúng lần quét, không còn mở ảnh cũ bằng timestamp của kết quả mới.",
-    "Ổn định nét chữ theo thời gian và loại tín hiệu sáng chỉ xuất hiện một frame để giảm phụ đề lặp/rác.",
-    "Giữ phụ đề nhanh từ hai frame trở lên khi quét 20–25 FPS.",
-    "Đồng bộ voice dài bằng co giãn cục bộ timeline video, không cắt khoảng lặng trong file voice."
+    "Đổi tên thương hiệu hiển thị thống nhất từ VICDub AI sang AndrewSub.",
+    "Đổi tiêu đề cửa sổ, hộp thoại và thông báo đăng nhập sang AndrewSub.",
+    "Giữ nguyên toàn bộ sửa lỗi OCR, checkpoint và đồng bộ voice của bản 1.1.0."
   ]
 }
