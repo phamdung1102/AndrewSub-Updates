@@ -2,4 +2,4 @@
 
 Kênh cập nhật chính thức cho AndrewSub AI.
 
-Phiên bản mới nhất: `v1.0.8`.
+Phiên bản mới nhất: `v1.0.9`.
