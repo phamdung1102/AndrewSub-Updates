@@ -1,10 +1,12 @@
 {
-  "version": "1.0.5",
-  "type": "installer",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.5/AndrewSubAI-Setup-1.0.5.exe",
-  "sha256": "ff2d4c40d9013ce3267556c72c699301b98af68431ddf73efc6a541a41ca796c",
-  "required": false,
-  "notes": [
-    "Khởi tạo kênh cập nhật tự động cho AndrewSub AI."
-  ]
+    "version":  "1.0.7",
+    "type":  "patch",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.7/AndrewSubAI-Patch-1.0.7.zip",
+    "sha256":  "11169ef47effa4f6218a6b917de0aea177fab34331781d5ed787045c7214f47a",
+    "required":  false,
+    "notes":  [
+                  "Bổ sung API giọng nói OpenAI-compatible, ElevenLabs và REST tùy chỉnh.",
+                  "Tự đồng bộ danh sách giọng và bảo vệ API key bằng Windows.",
+                  "Giữ checkpoint khi API lỗi, không sinh lại các câu đã hoàn thành."
+              ]
 }
