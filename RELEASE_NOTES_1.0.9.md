@@ -22,6 +22,14 @@ Phiên bản này ưu tiên không bỏ sót phụ đề hội thoại nhanh và
 - Video nền nhiễu hoặc có nhiều phụ đề chớp nhanh: có thể tăng khoảng 20–35% do OCR thêm ứng viên cứu hộ.
 - Không quét lại toàn bộ video lần hai.
 
+## Tối ưu làm sạch OCR
+
+- Dòng tiếng Trung có lõi chữ rõ và chỉ dính mảnh Latin/Cyrillic được làm sạch ngay tại máy.
+- Dòng ngắn hoặc mơ hồ mới được gửi lại để tránh xóa nhầm chữ thật.
+- Các dòng cần kiểm tra được gom thành montage 8–20 ảnh và phân phối song song qua các tài khoản OCR.
+- Nếu lượt kiểm tra lỗi hoặc đọc được ít chữ Trung hơn, ứng dụng giữ nguyên kết quả OCR chính.
+- Loại bỏ cơ chế gửi lại từng ảnh vốn làm khâu “nghi nhiễu” kéo dài.
+
 ## Kiểm thử
 
-- 182 kiểm thử tự động đã đạt.
+- 184 kiểm thử tự động đã đạt.
