@@ -1,12 +1,13 @@
 {
-    "version":  "1.0.7",
-    "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.7/AndrewSubAI-Patch-1.0.7.zip",
-    "sha256":  "11169ef47effa4f6218a6b917de0aea177fab34331781d5ed787045c7214f47a",
-    "required":  false,
-    "notes":  [
-                  "Bổ sung API giọng nói OpenAI-compatible, ElevenLabs và REST tùy chỉnh.",
-                  "Tự đồng bộ danh sách giọng và bảo vệ API key bằng Windows.",
-                  "Giữ checkpoint khi API lỗi, không sinh lại các câu đã hoàn thành."
-              ]
+  "version": "1.0.8",
+  "type": "patch",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.8/AndrewSubAI-Patch-1.0.8.zip",
+  "sha256": "63405ede30b21a19202df634ca7acf202a4185f2489cda42939e2ebd8ab0a8ef",
+  "required": false,
+  "notes": [
+    "Ổn định mặt nạ chữ theo ba khung hình và giới hạn quét tối đa 25 FPS.",
+    "Làm sạch ký tự Latin/Cyrillic lẫn trong kết quả OCR tiếng Trung.",
+    "So sánh 2–3 track lân cận và chỉ gộp gần đúng khi thời gian cùng nét chữ xác nhận.",
+    "Chọn nội dung OCR theo đồng thuận thay vì ưu tiên kết quả dài nhất."
+  ]
 }
