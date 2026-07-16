@@ -1,13 +1,13 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.8/AndrewSubAI-Patch-1.0.8.zip",
-  "sha256": "63405ede30b21a19202df634ca7acf202a4185f2489cda42939e2ebd8ab0a8ef",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.9/AndrewSubAI-Patch-1.0.9.zip",
+  "sha256": "1ca92785f583c5fc351bdba77190ee7aa4f48163241b2b61ffe357957177e98b",
   "required": false,
   "notes": [
-    "Ổn định mặt nạ chữ theo ba khung hình và giới hạn quét tối đa 25 FPS.",
-    "Làm sạch ký tự Latin/Cyrillic lẫn trong kết quả OCR tiếng Trung.",
-    "So sánh 2–3 track lân cận và chỉ gộp gần đúng khi thời gian cùng nét chữ xác nhận.",
-    "Chọn nội dung OCR theo đồng thuận thay vì ưu tiên kết quả dài nhất."
+    "Giữ phụ đề chớp nhanh chỉ xuất hiện một frame làm ứng viên cứu hộ OCR.",
+    "Dùng mask ổn định cho câu thường và mask thô có điều kiện cho nhánh recall-first.",
+    "Không quét lại toàn bộ video; chỉ tăng số ảnh OCR khi phát hiện ứng viên nghi bị lọt.",
+    "Ẩn cửa sổ CMD khi FFmpeg, VideoSubFinder và tiến trình cài thành phần chạy nền."
   ]
 }
