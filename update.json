@@ -2,12 +2,14 @@
   "version": "1.0.9",
   "type": "patch",
   "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.0.9/AndrewSubAI-Patch-1.0.9.zip",
-  "sha256": "1ca92785f583c5fc351bdba77190ee7aa4f48163241b2b61ffe357957177e98b",
+  "sha256": "e50277fc11ab176b5b430d645fae6aff1170aca9c49372cbca29b31a6ea68d8b",
   "required": false,
   "notes": [
     "Giữ phụ đề chớp nhanh chỉ xuất hiện một frame làm ứng viên cứu hộ OCR.",
     "Dùng mask ổn định cho câu thường và mask thô có điều kiện cho nhánh recall-first.",
     "Không quét lại toàn bộ video; chỉ tăng số ảnh OCR khi phát hiện ứng viên nghi bị lọt.",
-    "Ẩn cửa sổ CMD khi FFmpeg, VideoSubFinder và tiến trình cài thành phần chạy nền."
+    "Ẩn cửa sổ CMD khi FFmpeg, VideoSubFinder và tiến trình cài thành phần chạy nền.",
+    "Làm sạch cục bộ các dòng tiếng Trung có lõi chữ rõ, không gửi OCR lại vô ích.",
+    "Gom các dòng thật sự nghi nhiễu thành lô 8–20 ảnh và chia cho nhiều tài khoản xử lý song song."
   ]
 }
