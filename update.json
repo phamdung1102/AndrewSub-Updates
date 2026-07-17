@@ -1,13 +1,12 @@
 ﻿{
-    "version":  "1.1.4",
+    "version":  "1.1.5",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.4/AndrewSub-Patch-1.1.4.zip",
-    "sha256":  "8ac55cb177842575b0a717c6cde5f9feea0d229382000e98e17d6964186da096",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.5/AndrewSub-Patch-1.1.5.zip",
+    "sha256":  "a3f59855edad39232587623acd81fec21440a3f44fdc0cc649a4d0faf56bae1b",
     "required":  false,
     "notes":  [
-                  "Tăng tốc xuất video bằng GPU NVIDIA, tự chuyển CPU khi GPU lỗi.",
-                  "Gộp kéo hình, trộn voice, âm nền, làm mờ và phụ đề vào một lượt render.",
-                  "Không đổi hình thì dùng stream-copy; xuất thẳng ra thư mục đích, không sao chép file lần hai.",
-                  "Hiển thị tốc độ render và thời gian còn lại; thêm lựa chọn Nhanh, Cân bằng và Chất lượng cao."
+                  "Sửa lỗi ảnh nhận diện bị xé khi vùng phụ đề có chiều rộng hoặc chiều cao lẻ.",
+                  "Giữ đúng kích thước vùng khoanh khi đọc frame, tránh OCR trả rỗng và bỏ sót hàng loạt phụ đề.",
+                  "Thêm kiểm thử hồi quy cho vùng nhận diện kích thước lẻ."
               ]
 }
