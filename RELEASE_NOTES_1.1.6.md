@@ -12,6 +12,7 @@
 - Loại bỏ graph `trim` / `tpad` / `concat` hàng trăm nhánh trong bước xuất cuối.
 - Chế độ nhanh dùng NVIDIA NVENC preset `p1`.
 - Khi không chèn phụ đề cứng hoặc làm mờ hình, ứng dụng copy nguyên luồng video và chỉ xử lý audio.
+- Chuyển manifest sang đường dẫn `refs/heads/main` để tránh GitHub trả phiên bản cache cũ.
 
 ## Kiểm thử
 
