@@ -1,12 +1,14 @@
 ﻿{
-    "version":  "1.1.5",
+    "version":  "1.1.6",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.5/AndrewSub-Patch-1.1.5.zip",
-    "sha256":  "a3f59855edad39232587623acd81fec21440a3f44fdc0cc649a4d0faf56bae1b",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.6/AndrewSub-Patch-1.1.6.zip",
+    "sha256":  "85393a06c713098d5e5e33fb4f7b7b715a2c14b5511e16b15dce9f660d6a3de7",
     "required":  false,
     "notes":  [
-                  "Sửa lỗi ảnh nhận diện bị xé khi vùng phụ đề có chiều rộng hoặc chiều cao lẻ.",
-                  "Giữ đúng kích thước vùng khoanh khi đọc frame, tránh OCR trả rỗng và bỏ sót hàng loạt phụ đề.",
-                  "Thêm kiểm thử hồi quy cho vùng nhận diện kích thước lẻ."
+                  "Giữ nguyên tuyệt đối hình và timeline video; loại bỏ cơ chế kéo chậm hoặc giữ khung theo voice.",
+                  "Voice dài tự mượn khoảng trống, tăng tốc giữ cao độ và mix overlap để hạn chế mất câu hoặc mất đuôi.",
+                  "Loại bỏ graph trim/tpad/concat hàng trăm nhánh trong bước xuất cuối.",
+                  "Chế độ render nhanh dùng NVIDIA NVENC preset p1; video không chèn phụ đề cứng hoặc làm mờ được copy nguyên luồng hình.",
+                  "Nút đồng bộ chỉ lập lịch voice, không băm hoặc retime video trung gian."
               ]
 }
