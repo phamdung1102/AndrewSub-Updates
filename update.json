@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "1.1.10",
+    "version":  "1.2.1",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.10/AndrewSub-Patch-1.1.10.zip",
-    "sha256":  "580cebac2ca2147a7dc3e87d647b79c2b82cde66900a87f9989abe519c28355c",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.2.1/AndrewSub-Patch-1.2.1.zip",
+    "sha256":  "016788f4f743ad70872f8cacfb1cab50e120248070b9bbfef368141b45db082a",
     "required":  false,
     "notes":  [
-                  "Sửa lỗi video dài bị đưa hàng nghìn dòng vào lượt OCR kiểm tra nhiều lớp chữ.",
-                  "Chỉ OCR lại dòng có kết quả bất thường; giới hạn tối đa 1% timeline và không quá 32 dòng cho mỗi video.",
-                  "Giữ cơ chế lọc đúng chữ nền tại cảnh livestream/điện thoại và tô đỏ dòng cần kiểm tra thủ công.",
-                  "Bổ sung bộ đếm thời gian thật cho tách phụ đề, dịch, sinh giọng và xuất video; lưu kết quả trong lịch sử dự án."
+                  "Giảm mạnh lượt kiểm tra ảnh nhiều lớp: tối đa 1% timeline và không quá 32 ảnh mỗi video.",
+                  "Sửa trường hợp đã phát hiện chữ nền nhưng vẫn giữ chuỗi OCR rác dài; ưu tiên cụm phụ đề chính khi đủ bằng chứng.",
+                  "Ổn định kết quả từ các khung chữ liền nhau để giảm lặp và tránh ghép nhầm lớp chữ.",
+                  "Giữ đánh dấu đỏ cho dòng chưa đủ chắc chắn để kiểm tra thủ công."
               ]
 }
