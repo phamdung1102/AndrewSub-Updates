@@ -1,14 +1,13 @@
-{
-    "version": "1.1.8",
-    "type": "patch",
-    "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.8/AndrewSub-Patch-1.1.8.zip",
-    "sha256": "5ea2e5764ba787597b2a9faacc4d35463c428f09ed8259c0876f0e90d82a39e8",
-    "required": false,
-    "notes": [
-        "Tối ưu nhận diện phụ đề HD/Full HD, giữ hội thoại nhanh và giảm track lặp an toàn.",
-        "OCR chạy đồng thời với quét video, chia nhiều tài khoản và ráp kết quả đúng theo ID.",
-        "Checkpoint tiếp tục sau lỗi tài khoản hoặc giới hạn dịch vụ, không chạy lại từ đầu.",
-        "Bổ sung FFMS2 5.0 x64 cho preview, kéo timeline và chụp sửa OCR chính xác; tự fallback FFmpeg.",
-        "Làm sạch ký tự OCR nhiễu và cứu chọn lọc ảnh trống/khoảng timeline đáng ngờ."
-    ]
+﻿{
+    "version":  "1.1.9",
+    "type":  "patch",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.1.9/AndrewSub-Patch-1.1.9.zip",
+    "sha256":  "2bb4a91a99152d3f8f85ef90a0b2d1ef7df7fd1bcf971183a20c28a02a9379ef",
+    "required":  false,
+    "notes":  [
+                  "Nhận diện riêng lớp phụ đề chính khi video có chữ nền, giao diện livestream hoặc nhiều lớp chữ.",
+                  "So sánh OCR ảnh gốc và ảnh đã lọc; tự chọn kết quả an toàn và tô đỏ dòng cần kiểm tra thủ công.",
+                  "Loại cạnh sáng dài của điện thoại, cửa sổ và vật thể khỏi phép chọn lớp chữ.",
+                  "Cảnh báo nhận diện được lưu cùng dự án và tự xóa sau khi người dùng sửa nội dung."
+              ]
 }
