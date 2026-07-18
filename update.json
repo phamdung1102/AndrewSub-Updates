@@ -1,13 +1,13 @@
 ﻿{
-    "version":  "1.2.1",
+    "version":  "1.2.2",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.2.1/AndrewSub-Patch-1.2.1.zip",
-    "sha256":  "016788f4f743ad70872f8cacfb1cab50e120248070b9bbfef368141b45db082a",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.2.2/AndrewSub-Patch-1.2.2.zip",
+    "sha256":  "f585eb0333232c8f2bdb2d8bd06d9e665f30d45b2aa15d454a3a615cb3df7ca2",
     "required":  false,
     "notes":  [
-                  "Giảm mạnh lượt kiểm tra ảnh nhiều lớp: tối đa 1% timeline và không quá 32 ảnh mỗi video.",
-                  "Sửa trường hợp đã phát hiện chữ nền nhưng vẫn giữ chuỗi OCR rác dài; ưu tiên cụm phụ đề chính khi đủ bằng chứng.",
-                  "Ổn định kết quả từ các khung chữ liền nhau để giảm lặp và tránh ghép nhầm lớp chữ.",
-                  "Giữ đánh dấu đỏ cho dòng chưa đủ chắc chắn để kiểm tra thủ công."
+                  "Bỏ lượt giải mã và quét lại toàn bộ video ở mốc 97%.",
+                  "Giữ subtitle chớp nhanh ngay trong lượt quét chính 25 fps và OCR tự động theo lô ở cuối.",
+                  "Tự động bổ sung dòng đọc được; chỉ đánh dấu đỏ đúng dòng near-miss chưa đủ chắc chắn.",
+                  "Giữ nguyên cơ chế lọc nhiều lớp chữ và giới hạn tối đa 32 ảnh."
               ]
 }
