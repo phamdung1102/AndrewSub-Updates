@@ -2,4 +2,4 @@
 
 Kênh cập nhật chính thức cho AndrewSub.
 
-Phiên bản mới nhất: `v1.1.6`.
+Phiên bản mới nhất: `v1.1.8`.
