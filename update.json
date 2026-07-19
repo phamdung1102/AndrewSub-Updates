@@ -1,13 +1,15 @@
-﻿{
-    "version":  "1.2.2",
-    "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.2.2/AndrewSub-Patch-1.2.2.zip",
-    "sha256":  "f585eb0333232c8f2bdb2d8bd06d9e665f30d45b2aa15d454a3a615cb3df7ca2",
-    "required":  false,
-    "notes":  [
-                  "Bỏ lượt giải mã và quét lại toàn bộ video ở mốc 97%.",
-                  "Giữ subtitle chớp nhanh ngay trong lượt quét chính 25 fps và OCR tự động theo lô ở cuối.",
-                  "Tự động bổ sung dòng đọc được; chỉ đánh dấu đỏ đúng dòng near-miss chưa đủ chắc chắn.",
-                  "Giữ nguyên cơ chế lọc nhiều lớp chữ và giới hạn tối đa 32 ảnh."
-              ]
+{
+  "version": "1.3.0",
+  "type": "patch",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.3.0/AndrewSub-Patch-1.3.0.zip",
+  "sha256": "251693bee064a5b9559f2edb7da7386505bd477bf6b0907021b973696aa4c753",
+  "required": false,
+  "notes": [
+    "Dịch phụ đề song song tối đa 4 phiên, giữ nguyên ID và timecode gốc.",
+    "Ưu tiên Gemini 3.1 Pro, có checkpoint và tự chuyển lô khi một phiên lỗi.",
+    "Tab Dự án có lựa chọn OCR hoặc nhận diện lời thoại dạng khung nhẹ; bắt đầu tách sẽ chuyển sang tab Phụ đề.",
+    "Bỏ nút nhận diện trùng lặp khỏi tab Phụ đề.",
+    "Tối ưu bảng phụ đề dài: cache dữ liệu, combo giọng mở khi cần, chuyển tab gần như tức thời.",
+    "226/226 kiểm thử đạt."
+  ]
 }
