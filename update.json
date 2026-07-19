@@ -1,15 +1,14 @@
-{
-  "version": "1.3.1",
-  "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.3.1/AndrewSub-Patch-1.3.1.zip",
-  "sha256": "b9c6926b0ddaf8ecccb1c02a9cb534aa98d07e70846bf30e4f9ace61d41b9590",
-  "required": false,
-  "notes": [
-    "Sửa treo giao diện khi nhập hàng nghìn file voice: quét, copy và convert chạy nền.",
-    "Sau khi nhập voice chỉ cập nhật các cột thời lượng/khớp/nghe, không dựng lại toàn bộ bảng phụ đề.",
-    "Bổ sung kiểm tra tuần tự 4 tài khoản OCR, hiển thị email và trạng thái từng tài khoản.",
-    "Hiển thị tài khoản đang nhận diện; tự tạm nghỉ tài khoản bị giới hạn và chuyển lô sang tài khoản khác.",
-    "Bổ sung kiểm tra tối đa 4 phiên dịch tuần tự, nhận biết tài khoản trùng và hiển thị phiên đang làm việc.",
-    "228/228 kiểm thử đạt."
-  ]
+﻿{
+    "version":  "1.3.2",
+    "type":  "patch",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.2.zip",
+    "sha256":  "ae5bb4f776745cb5d46b44582b1e2d96baec46ee84d6e567cce0accea9025ed7",
+    "required":  false,
+    "notes":  [
+                  "Tối ưu dịch web: giữ phiên dịch, giảm mở lại trang giữa các lô.",
+                  "Dịch đổ kết quả theo lô nhỏ hơn để bảng ít lag khi file dài.",
+                  "Bổ sung quy tắc xưng hô theo speaker/gender, tránh Translation Memory dùng nhầm anh/em giữa nhân vật.",
+                  "Bổ sung cấu hình giọng nam/nữ mặc định; sinh voice có thể tự chọn theo giới tính nhân vật.",
+                  "230/230 kiểm thử đạt."
+              ]
 }
