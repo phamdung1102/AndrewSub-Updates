@@ -1,15 +1,14 @@
 ﻿{
-    "version":  "1.3.3",
+    "version":  "1.3.4",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.3.zip",
-    "sha256":  "ead41669866109d719650e9f7f7f19ceebb8bc164e0783b57dfa75e26ee264b8",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.4.zip",
+    "sha256":  "fd3cfa0c8f7e226a6674826556158db8c227e7c5860670d8aaea8cad9d482325",
     "required":  false,
     "notes":  [
-                  "Bổ sung cột Giới tính cho từng cut phụ đề: Nam, Nữ, Chưa rõ.",
-                  "Khi dịch, app yêu cầu model trả gender từng dòng để chọn giọng nam/nữ tự động.",
-                  "Cho phép sửa tay giới tính trực tiếp trong bảng phụ đề.",
-                  "Thêm nút Lưu SRT nam và Lưu SRT nữ, giữ nguyên timing từng cut.",
-                  "Gỡ các nút voice trùng khỏi panel giọng bên phải, giữ giao diện gọn hơn.",
+                  "Sửa treo/Not Responding ở cuối bước dịch khi dự án có hàng nghìn dòng phụ đề.",
+                  "Cuối bước dịch không còn xoá và ghi lại toàn bộ bảng segment; chuyển sang cập nhật theo lô.",
+                  "Refresh tab Phụ đề sau dịch dùng cập nhật nhẹ cột giới tính/gốc/bản dịch/giọng, tránh dựng lại toàn bộ bảng.",
+                  "Giữ tính năng cột Giới tính, SRT nam/nữ và giọng nam/nữ từ bản 1.3.3.",
                   "231/231 kiểm thử đạt."
               ]
 }
