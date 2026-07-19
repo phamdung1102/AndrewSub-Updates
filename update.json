@@ -1,15 +1,15 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.3.0/AndrewSub-Patch-1.3.0.zip",
-  "sha256": "251693bee064a5b9559f2edb7da7386505bd477bf6b0907021b973696aa4c753",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.3.1/AndrewSub-Patch-1.3.1.zip",
+  "sha256": "b9c6926b0ddaf8ecccb1c02a9cb534aa98d07e70846bf30e4f9ace61d41b9590",
   "required": false,
   "notes": [
-    "Dịch phụ đề song song tối đa 4 phiên, giữ nguyên ID và timecode gốc.",
-    "Ưu tiên Gemini 3.1 Pro, có checkpoint và tự chuyển lô khi một phiên lỗi.",
-    "Tab Dự án có lựa chọn OCR hoặc nhận diện lời thoại dạng khung nhẹ; bắt đầu tách sẽ chuyển sang tab Phụ đề.",
-    "Bỏ nút nhận diện trùng lặp khỏi tab Phụ đề.",
-    "Tối ưu bảng phụ đề dài: cache dữ liệu, combo giọng mở khi cần, chuyển tab gần như tức thời.",
-    "226/226 kiểm thử đạt."
+    "Sửa treo giao diện khi nhập hàng nghìn file voice: quét, copy và convert chạy nền.",
+    "Sau khi nhập voice chỉ cập nhật các cột thời lượng/khớp/nghe, không dựng lại toàn bộ bảng phụ đề.",
+    "Bổ sung kiểm tra tuần tự 4 tài khoản OCR, hiển thị email và trạng thái từng tài khoản.",
+    "Hiển thị tài khoản đang nhận diện; tự tạm nghỉ tài khoản bị giới hạn và chuyển lô sang tài khoản khác.",
+    "Bổ sung kiểm tra tối đa 4 phiên dịch tuần tự, nhận biết tài khoản trùng và hiển thị phiên đang làm việc.",
+    "228/228 kiểm thử đạt."
   ]
 }
