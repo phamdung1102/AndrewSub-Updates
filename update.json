@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "1.3.5",
+    "version":  "1.3.6",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.5.zip",
-    "sha256":  "3ac2070854bc701ebe1957466bb25272c4f799540a02dd201831176e6d21efe1",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.6.zip",
+    "sha256":  "3329102cb780a1518c60a6810064bd6294ab8dc5ed9a81b1cfe37c9ceea63291",
     "required":  false,
     "notes":  [
-                  "ASR audio mode: project chon tach bang am thanh se chay voice recognition dung huong.",
-                  "Batch project: OCR can vung phu de, audio can API key ASR; khong bao nham thieu OCR.",
-                  "Kiem tra ASR key chay nen an toan qua Qt signal.",
-                  "ASR glossary duoc gui lam hint/corpus truoc khi nhan dien.",
-                  "232/232 tests OK."
+                  "Voice subtitle: tach theo bien song/VAD truoc, ASR chi doc chu trong tung doan.",
+                  "Khong gom phu de qua bien doan voice, giam loi 2 cau bi dinh chung.",
+                  "Profile thoai nhanh: silence mac dinh 0.35s.",
+                  "Them regression tests cho hard voice spans.",
+                  "234/234 tests OK."
               ]
 }
