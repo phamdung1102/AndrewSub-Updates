@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "1.3.6",
+    "version":  "1.3.7",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.6.zip",
-    "sha256":  "3329102cb780a1518c60a6810064bd6294ab8dc5ed9a81b1cfe37c9ceea63291",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.7.zip",
+    "sha256":  "8039f65687472fe4529d5868dd2c3e02d2066ec26d04ec114192541d54ac0222",
     "required":  false,
     "notes":  [
-                  "Voice subtitle: tach theo bien song/VAD truoc, ASR chi doc chu trong tung doan.",
-                  "Khong gom phu de qua bien doan voice, giam loi 2 cau bi dinh chung.",
-                  "Profile thoai nhanh: silence mac dinh 0.35s.",
-                  "Them regression tests cho hard voice spans.",
-                  "234/234 tests OK."
+                  "Voice ASR: them pass phu 10-20% cho vung nghi ngo de giam sot cau noi nho/noi nhanh.",
+                  "Pass phu chi gui lai VAD span khong co word va gap co nang luong, khong quet lai toan bo audio.",
+                  "Boost +6dB cho vung retry va merge chong trung theo timestamp.",
+                  "Them config asr_retry_enabled/asr_retry_ratio/asr_retry_gain_db.",
+                  "236/236 tests OK."
               ]
 }
