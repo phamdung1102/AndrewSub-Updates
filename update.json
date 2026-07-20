@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "1.3.4",
+    "version":  "1.3.5",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.4.zip",
-    "sha256":  "fd3cfa0c8f7e226a6674826556158db8c227e7c5860670d8aaea8cad9d482325",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.5.zip",
+    "sha256":  "3ac2070854bc701ebe1957466bb25272c4f799540a02dd201831176e6d21efe1",
     "required":  false,
     "notes":  [
-                  "Sửa treo/Not Responding ở cuối bước dịch khi dự án có hàng nghìn dòng phụ đề.",
-                  "Cuối bước dịch không còn xoá và ghi lại toàn bộ bảng segment; chuyển sang cập nhật theo lô.",
-                  "Refresh tab Phụ đề sau dịch dùng cập nhật nhẹ cột giới tính/gốc/bản dịch/giọng, tránh dựng lại toàn bộ bảng.",
-                  "Giữ tính năng cột Giới tính, SRT nam/nữ và giọng nam/nữ từ bản 1.3.3.",
-                  "231/231 kiểm thử đạt."
+                  "ASR audio mode: project chon tach bang am thanh se chay voice recognition dung huong.",
+                  "Batch project: OCR can vung phu de, audio can API key ASR; khong bao nham thieu OCR.",
+                  "Kiem tra ASR key chay nen an toan qua Qt signal.",
+                  "ASR glossary duoc gui lam hint/corpus truoc khi nhan dien.",
+                  "232/232 tests OK."
               ]
 }
