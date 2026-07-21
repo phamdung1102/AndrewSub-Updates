@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.4.7",
+    "version":  "1.5.0",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.4.7.zip",
-    "sha256":  "2a290b9a8b1b2121784c35fc71dc636081941f14df6a15c6e070a04e2e5c09c9",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.0.zip",
+    "sha256":  "6c28cfab853ca23968bea49a082b8544d13e988949d56f13be986f4d86984bbc",
     "required":  false,
     "notes":  [
-                  "Sửa model VietAuto/ElevenLabs sang ID chính thức eleven_v3, tự chuyển cấu hình sai cũ và bổ sung nút áp dụng giọng cho tất cả phụ đề."
+                  "Bổ sung thiết lập quy trình hàng loạt: chọn từng bước, nguồn tách/dịch/voice chính và dự phòng, bỏ qua kết quả hợp lệ, tiếp tục từ bước lỗi, fallback render CPU và báo cáo theo dự án."
               ]
 }
