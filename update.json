@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "1.3.8",
+    "version":  "1.3.9",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.8.zip",
-    "sha256":  "d1b0596d93184ce91df566851dbea71b7970df8f9add4d0db90ff9b8e910c312",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.9.zip",
+    "sha256":  "970598f391e397475e7dcca2f58f791859ac384a0aa5a627bd3a61562f1ce238",
     "required":  false,
     "notes":  [
-                  "Voice ASR: sua timestamp bang 0 va cac moc thoi gian qua ngan tu API.",
-                  "Kiem tra cuoi: gop manh cau lien nhau, loai dong trung de thoi gian va sua chong thoi gian nho.",
-                  "Giu nguyen cau thoai ngan/lap co chu y; danh dau cac chong thoi gian lon de kiem tra thu cong.",
-                  "Hien thong ke so loi co hoc da sua sau khi tach voice.",
-                  "238/238 tests OK."
+                  "Thêm nguồn dịch Qwen API trong hộp Dịch tự động.",
+                  "Thêm cấu hình Qwen API key, endpoint và model trong Cài đặt.",
+                  "Web profile có thể dùng Qwen API làm nguồn dự phòng khi lỗi.",
+                  "Qwen tự vá lô dịch thiếu dòng bằng cách chia nhỏ và retry.",
+                  "240/240 tests OK."
               ]
 }
