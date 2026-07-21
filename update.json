@@ -1,14 +1,12 @@
 ﻿{
-    "version":  "1.4.1",
+    "version":  "1.4.2",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.4.1.zip",
-    "sha256":  "845864acda8f1cc71eb66d990004cf34bb5854ae3dc484f2d1a0016f211ebd8f",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.4.2.zip",
+    "sha256":  "577f2be4137e59905a967e6f00bd39dd68a0954bc4c74ff78eff3af820ca2e44",
     "required":  false,
     "notes":  [
-                  "Bỏ cảnh báo số lượng câu dịch dài trong bước dịch.",
-                  "Ẩn subprocess F0/launcher để hạn chế cửa sổ CMD đen bật lên rồi tắt.",
-                  "Sửa parser Qwen để output dạng 1||text không còn lọt dấu | vào phụ đề.",
-                  "Làm sạch chữ Trung/Hán còn sót trong bản dịch tiếng Việt.",
-                  "Bỏ dấu gạch ngang thừa ở cuối bản dịch/tên nhân vật."
+                  "Sửa lỗi bản dịch bị lọt marker số dòng như 6|, 18|, [29].",
+                  "Bổ sung VietAuto API voice theo endpoint chính thức /api/elevenlabs.",
+                  "Thêm 9 voice ID VietAuto mặc định và Project ID tự lấy/tạo."
               ]
 }
