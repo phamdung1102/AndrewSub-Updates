@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.4.4",
+    "version":  "1.4.5",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.4.4.zip",
-    "sha256":  "48b02477ee33e2a8cd115b84bc7525374021c8cc3eb751e7574d4b41d9adf6fe",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.4.5.zip",
+    "sha256":  "bbefddb0ce8fd9ad02cb0a124ec7537b5104391db948ea47fffab34cd34582d4",
     "required":  false,
     "notes":  [
-                  "Sửa tạo giọng bằng API: không còn yêu cầu PyTorch/OmniVoice/model khi chọn VietAuto/API; nút tạo toàn bộ giọng đọc kiểm tra đúng engine đang chọn."
+                  "Tăng tốc VietAuto/API voice: mặc định chạy 4 luồng, mỗi lô tối đa 5 câu; vẫn xuất từng WAV riêng để giữ khớp timeline."
               ]
 }
