@@ -1,10 +1,12 @@
 ﻿{
-    "version":  "1.5.1",
+    "version":  "1.5.2",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.1.zip",
-    "sha256":  "52483b72025ad544a17c973f50a4dd2499888b511c509041552af929a9b114ec",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.2.zip",
+    "sha256":  "56bd72611512cae1918fba154e3e2f70cd3f0d0c91f54de5922baf9cfe084912",
     "required":  false,
     "notes":  [
-                  "Nâng danh sách dự án thành bảng theo dõi chi tiết: video, số dòng, bước hiện tại, phần trăm và trạng thái theo từng dự án; hiển thị hàng đợi, fallback, hoàn tất và lỗi trực tiếp trên từng dòng."
+                  "Tách riêng cấu hình OmniVoice Server để không ghi đè các API giọng khác.",
+                  "Đồng bộ động danh sách giọng từ /voices, giữ 6 giọng dự phòng.",
+                  "Tự đánh thức máy chủ voice qua Wake URL, chờ /health rồi tiếp tục hàng đợi."
               ]
 }
