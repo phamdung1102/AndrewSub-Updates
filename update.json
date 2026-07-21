@@ -1,12 +1,12 @@
 {
-    "version": "1.4.2",
-    "type": "patch",
-    "url": "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.4.2.zip",
-    "sha256": "577f2be4137e59905a967e6f00bd39dd68a0954bc4c74ff78eff3af820ca2e44",
-    "required": false,
-    "notes": [
-        "Sửa lỗi bản dịch bị lọt marker số dòng như 6|, 18|, [29].",
-        "Bổ sung VietAuto API voice theo endpoint chính thức /api/elevenlabs.",
-        "Thêm 9 voice ID VietAuto mặc định và Project ID tự lấy/tạo."
-    ]
+  "version": "1.4.3",
+  "type": "patch",
+  "url": "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.4.3.zip",
+  "sha256": "7685892b4b72ad0158baf0c88cf1a698cb1012f290ccd8d580dcd672166d3c9c",
+  "required": false,
+  "notes": [
+    "VietAuto voice: ch? hi?n t?n gi?ng ?? setup, kh?ng l? ID.",
+    "UI gi?ng ??c load theo ??ng ngu?n API/local ?ang ch?n.",
+    "OmniVoice ch? hi?n khi setup ?? g?i, model v? preset gi?ng."
+  ]
 }
