@@ -1,12 +1,12 @@
-﻿{
-    "version":  "1.4.2",
-    "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.4.2.zip",
-    "sha256":  "577f2be4137e59905a967e6f00bd39dd68a0954bc4c74ff78eff3af820ca2e44",
-    "required":  false,
-    "notes":  [
-                  "Sửa lỗi bản dịch bị lọt marker số dòng như 6|, 18|, [29].",
-                  "Bổ sung VietAuto API voice theo endpoint chính thức /api/elevenlabs.",
-                  "Thêm 9 voice ID VietAuto mặc định và Project ID tự lấy/tạo."
-              ]
+{
+    "version": "1.4.2",
+    "type": "patch",
+    "url": "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.4.2.zip",
+    "sha256": "577f2be4137e59905a967e6f00bd39dd68a0954bc4c74ff78eff3af820ca2e44",
+    "required": false,
+    "notes": [
+        "Sửa lỗi bản dịch bị lọt marker số dòng như 6|, 18|, [29].",
+        "Bổ sung VietAuto API voice theo endpoint chính thức /api/elevenlabs.",
+        "Thêm 9 voice ID VietAuto mặc định và Project ID tự lấy/tạo."
+    ]
 }
