@@ -1,14 +1,16 @@
 ﻿{
-    "version":  "1.3.9",
+    "version":  "1.4.0",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.9.zip",
-    "sha256":  "970598f391e397475e7dcca2f58f791859ac384a0aa5a627bd3a61562f1ce238",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.4.0.zip",
+    "sha256":  "7424667d0f043e1d76031a058d774e2e7ed30d959ced582277116b4ab5985c2d",
     "required":  false,
     "notes":  [
-                  "Thêm nguồn dịch Qwen API trong hộp Dịch tự động.",
-                  "Thêm cấu hình Qwen API key, endpoint và model trong Cài đặt.",
-                  "Web profile có thể dùng Qwen API làm nguồn dự phòng khi lỗi.",
-                  "Qwen tự vá lô dịch thiếu dòng bằng cách chia nhỏ và retry.",
-                  "240/240 tests OK."
+                  "Tối ưu dịch Qwen API giữ ngữ cảnh cốt truyện.",
+                  "Qwen chạy tối đa 4 lô song song, gom kết quả theo số dòng.",
+                  "Giảm kích thước lô để tránh bị cắt output.",
+                  "Đổi prompt Qwen sang format gọn line|speaker|translation.",
+                  "Không fallback dòng dịch lỗi sang text gốc; dòng lỗi để trống và cảnh báo.",
+                  "Thêm F0 local để gán nam/nữ theo speaker khi có audio và speaker đủ chắc.",
+                  "Chỉ cảnh báo câu dịch dài, không tự rút gọn để tránh chậm tool."
               ]
 }
