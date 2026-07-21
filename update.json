@@ -1,14 +1,14 @@
 ﻿{
-    "version":  "1.3.7",
+    "version":  "1.3.8",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.7.zip",
-    "sha256":  "8039f65687472fe4529d5868dd2c3e02d2066ec26d04ec114192541d54ac0222",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.3.8.zip",
+    "sha256":  "d1b0596d93184ce91df566851dbea71b7970df8f9add4d0db90ff9b8e910c312",
     "required":  false,
     "notes":  [
-                  "Voice ASR: them pass phu 10-20% cho vung nghi ngo de giam sot cau noi nho/noi nhanh.",
-                  "Pass phu chi gui lai VAD span khong co word va gap co nang luong, khong quet lai toan bo audio.",
-                  "Boost +6dB cho vung retry va merge chong trung theo timestamp.",
-                  "Them config asr_retry_enabled/asr_retry_ratio/asr_retry_gain_db.",
-                  "236/236 tests OK."
+                  "Voice ASR: sua timestamp bang 0 va cac moc thoi gian qua ngan tu API.",
+                  "Kiem tra cuoi: gop manh cau lien nhau, loai dong trung de thoi gian va sua chong thoi gian nho.",
+                  "Giu nguyen cau thoai ngan/lap co chu y; danh dau cac chong thoi gian lon de kiem tra thu cong.",
+                  "Hien thong ke so loi co hoc da sua sau khi tach voice.",
+                  "238/238 tests OK."
               ]
 }
