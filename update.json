@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.4.5",
+    "version":  "1.4.6",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.4.5.zip",
-    "sha256":  "bbefddb0ce8fd9ad02cb0a124ec7537b5104391db948ea47fffab34cd34582d4",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.4.6.zip",
+    "sha256":  "b33f929c2169c3430d2d3680860671dc7cd29d90d98e51badcc0eb2736cf7619",
     "required":  false,
     "notes":  [
-                  "Tăng tốc VietAuto/API voice: mặc định chạy 4 luồng, mỗi lô tối đa 5 câu; vẫn xuất từng WAV riêng để giữ khớp timeline."
+                  "Nâng model VietAuto/ElevenLabs lên eleven_multilingual_v3 và gửi đúng bộ tham số tương thích model v3."
               ]
 }
