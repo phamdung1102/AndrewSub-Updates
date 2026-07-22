@@ -1,10 +1,10 @@
 ﻿{
     "version":  "1.5.6",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.6.zip",
-    "sha256":  "e552febaeece0d52624491b904029d256fac7bf4fbe97cec761899eda0a5547d",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.6.zip",
+    "sha256":  "f73c584014421cafa8568928d85976b5b5c00e8eded7fce2fd20c39e68915e3e",
     "required":  false,
     "notes":  [
-                  "Bổ sung tách lời thoại bằng máy chủ Whisper Large V3 riêng,Chia audio liên tục 120 giây và overlap 1,5 giây để giữ câu ở biên,Thêm pass phụ tối đa 15% cho lời nói nhỏ, nhanh hoặc vùng còn thiếu chữ,Đồng bộ timestamp hai pass và chống lặp tại biên khối,Thêm lựa chọn nguồn tách âm và kiểm tra máy chủ trong Cài đặt"
+                  "Bổ sung tách lời thoại bằng Whisper Large V3 trên máy chủ riêng; chia audio 120 giây có overlap; pass phụ tối đa 15%; đồng bộ timestamp và chống lặp; thêm lựa chọn nguồn tách âm"
               ]
 }
