@@ -1,12 +1,10 @@
 ﻿{
-    "version":  "1.5.2",
+    "version":  "1.5.3",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.2.zip",
-    "sha256":  "56bd72611512cae1918fba154e3e2f70cd3f0d0c91f54de5922baf9cfe084912",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.3.zip",
+    "sha256":  "435d05ed26716359563abf880747fe83253a60f66d60c7910f9637de272a7b2d",
     "required":  false,
     "notes":  [
-                  "Tách riêng cấu hình OmniVoice Server để không ghi đè các API giọng khác.",
-                  "Đồng bộ động danh sách giọng từ /voices, giữ 6 giọng dự phòng.",
-                  "Tự đánh thức máy chủ voice qua Wake URL, chờ /health rồi tiếp tục hàng đợi."
+                  "Thiết kế lại giao diện Cài đặt theo danh mục,Đưa cập nhật ứng dụng vào Cài đặt,Tối ưu panel giọng đọc trong Phụ đề,Ẩn thuật ngữ kỹ thuật và mã giọng khỏi giao diện"
               ]
 }
