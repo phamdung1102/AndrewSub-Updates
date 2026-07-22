@@ -5,6 +5,8 @@
     "sha256":  "707b2232e3522f4159dea6e36d262f7cb9eebf92f6105a9dc2608efc5ae65505",
     "required":  false,
     "notes":  [
-                  "Render thông minh: giữ nguyên hình khi có thể, tự chuyển GPU sang CPU khi lỗi,Kiểm tra đủ hình, tiếng và thời lượng trước khi hoàn tất,Nạp bảng phụ đề lớn theo lô, tính thời lượng voice ở nền để tránh treo giao diện"
+                  "Render thông minh: giữ nguyên hình khi có thể, tự chuyển GPU sang CPU khi lỗi",
+                  "Kiểm tra đủ hình, tiếng và thời lượng trước khi hoàn tất",
+                  "Nạp bảng phụ đề lớn theo lô, tính thời lượng voice ở nền để tránh treo giao diện"
               ]
 }
