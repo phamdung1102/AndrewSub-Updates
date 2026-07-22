@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.5.7",
+    "version":  "1.5.8",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.7.zip",
-    "sha256":  "8133e8f2e5e89c87c45755f78e8fe231fca735637012fb03d982d853ebf3767b",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.8.zip",
+    "sha256":  "4a8f21466d9cb6037177586826960404260e8ff7aa6c1ace91f94da9621a3f97",
     "required":  false,
     "notes":  [
-                  "Bổ sung tách lời thoại bằng Whisper Large V3 trên máy chủ riêng; chia audio 120 giây có overlap; pass phụ tối đa 15%; đồng bộ timestamp và chống lặp; thêm lựa chọn nguồn tách âm"
+                  "Hiện trực tiếp ba lựa chọn OCR, Qwen API và máy chủ riêng tại tab Dự án; hiện trực tiếp các nguồn tạo voice tại panel Giọng đọc; tách riêng khóa Qwen, Whisper và tạo voice; tự sửa khóa máy chủ nhận diện cũ; bổ sung pass phụ Whisper và đồng bộ timestamp hai pass"
               ]
 }
