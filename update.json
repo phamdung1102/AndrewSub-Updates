@@ -1,12 +1,10 @@
 ﻿{
-    "version":  "1.5.5",
+    "version":  "1.5.6",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.5.zip",
-    "sha256":  "e85e249334a1e96d2370e94d6cdc8a95515304cda1ecc9d536e8672c2a964937",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.6.zip",
+    "sha256":  "e552febaeece0d52624491b904029d256fac7bf4fbe97cec761899eda0a5547d",
     "required":  false,
     "notes":  [
-                  "Chuyển máy chủ giọng riêng sang 43.98.167.97:8000",
-                  "Cho phép khoanh và thay đổi kích thước vùng làm mờ trực tiếp trên preview",
-                  "Giữ hộp phụ đề tùy chỉnh nằm trọn trong khung video"
+                  "Bổ sung tách lời thoại bằng máy chủ Whisper Large V3 riêng,Chia audio liên tục 120 giây và overlap 1,5 giây để giữ câu ở biên,Thêm pass phụ tối đa 15% cho lời nói nhỏ, nhanh hoặc vùng còn thiếu chữ,Đồng bộ timestamp hai pass và chống lặp tại biên khối,Thêm lựa chọn nguồn tách âm và kiểm tra máy chủ trong Cài đặt"
               ]
 }
