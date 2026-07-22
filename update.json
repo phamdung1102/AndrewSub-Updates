@@ -1,13 +1,10 @@
 ﻿{
-    "version":  "1.5.3",
+    "version":  "1.5.4",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.3.zip",
-    "sha256":  "435d05ed26716359563abf880747fe83253a60f66d60c7910f9637de272a7b2d",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/refs/heads/main/AndrewSub-Patch-1.5.4.zip",
+    "sha256":  "707b2232e3522f4159dea6e36d262f7cb9eebf92f6105a9dc2608efc5ae65505",
     "required":  false,
     "notes":  [
-                  "Thiết kế lại giao diện Cài đặt theo danh mục",
-                  "Đưa cập nhật ứng dụng vào Cài đặt",
-                  "Tối ưu panel giọng đọc trong Phụ đề",
-                  "Ẩn thuật ngữ kỹ thuật và mã giọng khỏi giao diện"
+                  "Render thông minh: giữ nguyên hình khi có thể, tự chuyển GPU sang CPU khi lỗi,Kiểm tra đủ hình, tiếng và thời lượng trước khi hoàn tất,Nạp bảng phụ đề lớn theo lô, tính thời lượng voice ở nền để tránh treo giao diện"
               ]
 }
