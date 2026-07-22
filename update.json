@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.5.11",
+    "version":  "1.5.12",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.11.zip",
-    "sha256":  "101d1f6342ceb40d6a459104916f71a7d1a02ecb88e64713096391193581a6bc",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.12.zip",
+    "sha256":  "dcd85f8aaf6964ca66c413601c0a8a29350bad48824735ee3864ea513ca7b096",
     "required":  false,
     "notes":  [
-                  "Nâng nhận diện lời thoại với word timestamp, confidence và kiểm tra timeline.,Thêm thể loại và ba mức dịch Nhanh, Cân bằng, Chất lượng.,Parser dịch chịu lỗi định dạng nhưng giữ đúng ID phụ đề.,Hiển thị CPS và cảnh báo tốc độ đọc ngay trong cột Khớp.,Thêm lọc màu chữ OCR theo từng dự án và xem trước mặt nạ."
+                  "Hiển thị ô màu trực quan cạnh từng mã màu trong bộ lọc OCR; có viền rõ cho màu trắng và tooltip mã HEX."
               ]
 }
