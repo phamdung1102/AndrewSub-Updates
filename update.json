@@ -5,6 +5,9 @@
     "sha256":  "435d05ed26716359563abf880747fe83253a60f66d60c7910f9637de272a7b2d",
     "required":  false,
     "notes":  [
-                  "Thiết kế lại giao diện Cài đặt theo danh mục,Đưa cập nhật ứng dụng vào Cài đặt,Tối ưu panel giọng đọc trong Phụ đề,Ẩn thuật ngữ kỹ thuật và mã giọng khỏi giao diện"
+                  "Thiết kế lại giao diện Cài đặt theo danh mục",
+                  "Đưa cập nhật ứng dụng vào Cài đặt",
+                  "Tối ưu panel giọng đọc trong Phụ đề",
+                  "Ẩn thuật ngữ kỹ thuật và mã giọng khỏi giao diện"
               ]
 }
