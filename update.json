@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.6.3",
+    "version":  "1.6.4",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.3.zip",
-    "sha256":  "0437c23d60e66c42261b6095afa64fb90b03b0cd40d3b62f12edf29d8fbd1604",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.4.zip",
+    "sha256":  "431242ee72af034938ebebfa9fa3863bdcc993572c5fe8082adfc54fa0bd08c2",
     "required":  false,
     "notes":  [
-                  "Cải thiện chia phụ đề bằng âm thanh bằng Silero VAD, word timestamp và segment Whisper; giữ câu ngắn, giảm dính câu, sửa ánh xạ timeline và kiểm tra máy chủ trước mỗi lô tải lên."
+                  "Tinh gọn Cài đặt: ẩn mục Kết nối cũ; đổi tên nguồn dịch thành Dịch nhanh và Dịch Gemini; che địa chỉ dịch vụ; chỉ báo kiểm tra máy chủ chỉ hiện Kết nối thành công."
               ]
 }
