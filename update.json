@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.6.2",
+    "version":  "1.6.3",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.2.zip",
-    "sha256":  "d736ba7a17be7cba2d8276275cdc99d539f2dd31cbc1a37a4ff6c8d014551d1c",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.3.zip",
+    "sha256":  "0437c23d60e66c42261b6095afa64fb90b03b0cd40d3b62f12edf29d8fbd1604",
     "required":  false,
     "notes":  [
-                  "Whisper Server chia phụ đề theo khoảng lặng thực tế 250 ms thay vì giữ nguyên các cụm 3-5 giây. Bung response CJK trước khi phân vào từng lượt nói; giảm mạnh tình trạng dính câu. Kiểm thử thực tế tăng từ 70-71 lên 137 dòng, gần bản OCR 144 dòng."
+                  "Cải thiện chia phụ đề bằng âm thanh bằng Silero VAD, word timestamp và segment Whisper; giữ câu ngắn, giảm dính câu, sửa ánh xạ timeline và kiểm tra máy chủ trước mỗi lô tải lên."
               ]
 }
