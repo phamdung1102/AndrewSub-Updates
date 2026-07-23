@@ -1,11 +1,12 @@
 ﻿{
-    "version":  "1.6.5",
+    "version":  "1.6.6",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.5.zip",
-    "sha256":  "e44b747f345e72793c911c321bc1b0330d9f0c7b837b65265b4ea99ead9e1d16",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.6.zip",
+    "sha256":  "d9c0333bb364bb8de9d045b8b7e9db6ca6d17c1dfeeba61a2f8bd83e176dc856",
     "required":  false,
     "notes":  [
-                  "Đổi logo ứng dụng.",
-                  "Thêm tùy chọn số luồng gửi OCR máy chủ trong Cài đặt."
+                  "Sửa cơ chế OCR máy chủ: giảm lô gửi để tránh dính hàng khi phụ đề ngắn.",
+                  "Chuẩn hóa candidate id khi OCR streaming để kết quả trả về luôn ráp đúng mốc thời gian.",
+                  "Siết gộp track sau OCR để hạn chế nuốt các câu thoại rất ngắn."
               ]
 }
