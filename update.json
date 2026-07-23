@@ -1,12 +1,12 @@
-﻿{
-    "version":  "1.6.6",
+{
+    "version":  "1.6.7",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.6.zip",
-    "sha256":  "d9c0333bb364bb8de9d045b8b7e9db6ca6d17c1dfeeba61a2f8bd83e176dc856",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.7/AndrewSub-Patch-1.6.7.zip",
+    "sha256":  "6e0b1d911912fc050937747b7f13f6fc4a37843f182609bff18bd256ac4dfec5",
     "required":  false,
     "notes":  [
-                  "Sửa cơ chế OCR máy chủ: giảm lô gửi để tránh dính hàng khi phụ đề ngắn.",
-                  "Chuẩn hóa candidate id khi OCR streaming để kết quả trả về luôn ráp đúng mốc thời gian.",
-                  "Siết gộp track sau OCR để hạn chế nuốt các câu thoại rất ngắn."
+                  "Sửa OCR giữ riêng thoại Trung 1-3 chữ, tránh gộp câu nhanh.",
+                  "Thêm tùy chỉnh font, màu chữ và màu nền phụ đề khi xuất video.",
+                  "Đồng bộ icon cửa sổ và taskbar Windows."
               ]
 }
