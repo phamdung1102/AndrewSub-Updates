@@ -1,12 +1,12 @@
-{
-    "version":  "1.6.7",
+﻿{
+    "version":  "1.6.8",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.7/AndrewSub-Patch-1.6.7.zip",
-    "sha256":  "6e0b1d911912fc050937747b7f13f6fc4a37843f182609bff18bd256ac4dfec5",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.8/AndrewSub-Patch-1.6.8.zip",
+    "sha256":  "c652959c4cad2f77839bb7ff203742aa842390492ff2c738d095b59060350d85",
     "required":  false,
     "notes":  [
-                  "Sửa OCR giữ riêng thoại Trung 1-3 chữ, tránh gộp câu nhanh.",
-                  "Thêm tùy chỉnh font, màu chữ và màu nền phụ đề khi xuất video.",
-                  "Đồng bộ icon cửa sổ và taskbar Windows."
+                  "Sửa tách phụ đề OCR cho thoại rất nhanh/1 từ, không để câu trước bắc cầu nuốt câu mới.",
+                  "Giữ near-miss sát biên để OCR cứu các câu ngắn như vâng, ừ, một chữ Trung.",
+                  "Kế thừa tùy chỉnh font, màu chữ và màu nền phụ đề khi xuất video."
               ]
 }
