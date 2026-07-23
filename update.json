@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.5.12",
+    "version":  "1.5.13",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.12.zip",
-    "sha256":  "dcd85f8aaf6964ca66c413601c0a8a29350bad48824735ee3864ea513ca7b096",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.13.zip",
+    "sha256":  "d6395e8db0d5b33a2e92a8047a6ba09fa059df9c32e86f496ae7f087f9f14ad4",
     "required":  false,
     "notes":  [
-                  "Hiển thị ô màu trực quan cạnh từng mã màu trong bộ lọc OCR; có viền rõ cho màu trắng và tooltip mã HEX."
+                  "Cải thiện chia câu Whisper: ngưỡng nghỉ thích nghi, không băm câu ngắn và tự ghép mảnh 1–2 chữ an toàn. Tự chuyển cấu hình chia câu cũ sang mặc định mới. Tự sửa Wake URL Function Compute sai từ vvxitzvqfm sang xvxitzvqfm."
               ]
 }
