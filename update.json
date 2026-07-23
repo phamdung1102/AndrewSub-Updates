@@ -1,10 +1,12 @@
 ﻿{
-    "version":  "1.6.11",
+    "version":  "1.6.12",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.11/AndrewSub-Patch-1.6.11.zip",
-    "sha256":  "d03144edaf8d626ece5cbdd314bb9b3c959f4d3afb01d45656973be3e6566909",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.12/AndrewSub-Patch-1.6.12.zip",
+    "sha256":  "14f5f50459a9d378df4789e223a93762fc96db50929c25860f5bfa5000ba03d9",
     "required":  false,
     "notes":  [
-                  "Sửa kênh cập nhật bị GitHub raw cache manifest cũ; thêm chống cache khi kiểm tra update."
+                  "Siết timing tách phụ đề OCR: giảm kéo đuôi câu trước sang câu sau.",
+                  "Giữ riêng các câu thoại rất ngắn/lặp nhanh, hạn chế gộp nhầm.",
+                  "Cắt lại biên khi candidate rescue bị overlap để phụ đề và voice bám đúng thời điểm xuất hiện."
               ]
 }
