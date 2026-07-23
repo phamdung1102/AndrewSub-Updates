@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.6.10",
+    "version":  "1.6.11",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.10/AndrewSub-Patch-1.6.10.zip",
-    "sha256":  "f4eab0dd53cdeba8eae41d4e13aee50df769908ad2341f46c1a009414ea3f771",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.11/AndrewSub-Patch-1.6.11.zip",
+    "sha256":  "d03144edaf8d626ece5cbdd314bb9b3c959f4d3afb01d45656973be3e6566909",
     "required":  false,
     "notes":  [
-                  "Sửa ký tự lạ, lọc OCR rác dạng số/cụm chữ rời và giảm lặp cue phụ đề cực ngắn."
+                  "Sửa kênh cập nhật bị GitHub raw cache manifest cũ; thêm chống cache khi kiểm tra update."
               ]
 }
