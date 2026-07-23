@@ -2,7 +2,7 @@
     "version":  "1.6.4",
     "type":  "patch",
     "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.4.zip",
-    "sha256":  "431242ee72af034938ebebfa9fa3863bdcc993572c5fe8082adfc54fa0bd08c2",
+    "sha256":  "cd14607f49021c3d57566bafb77d9af5d27472743ff7e4b65d6ec53834442daf",
     "required":  false,
     "notes":  [
                   "Tinh gọn Cài đặt: ẩn mục Kết nối cũ; đổi tên nguồn dịch thành Dịch nhanh và Dịch Gemini; che địa chỉ dịch vụ; chỉ báo kiểm tra máy chủ chỉ hiện Kết nối thành công."
