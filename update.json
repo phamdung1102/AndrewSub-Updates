@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.6.0",
+    "version":  "1.6.1",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.0.zip",
-    "sha256":  "0096a207edd4472fc4a07ba3e6c266a71a7a1f9b39540d245ff79d4b9a0220e1",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.1.zip",
+    "sha256":  "463ff752d123a7ee0df4899c1edaa21d1b66951da504f1087ea5d187f45604b9",
     "required":  false,
     "notes":  [
-                  "Whisper Server tự đánh thức máy GPU và báo lỗi cấu hình ngay thay vì treo kết nối. Cải thiện chia câu Whisper bằng khoảng nghỉ thích nghi. Sắp xếp lại panel giọng đọc, tránh tên voice chồng nhau; làm nổi bật Áp dụng toàn bộ và Tạo toàn bộ giọng đọc; bỏ khối thông tin dòng dư thừa."
+                  "Cải thiện hậu xử lý nhận diện bằng Voice API: tách response CJK dạng cụm theo timeline, nối động từ lặp bị chẻ giữa hai đoạn sóng và sửa timestamp chồng nhẹ. Giữ nguyên các câu thoại ngắn hợp lệ."
               ]
 }
