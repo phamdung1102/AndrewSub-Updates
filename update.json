@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.6.8",
+    "version":  "1.6.9",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.8/AndrewSub-Patch-1.6.8.zip",
-    "sha256":  "c652959c4cad2f77839bb7ff203742aa842390492ff2c738d095b59060350d85",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.9/AndrewSub-Patch-1.6.9.zip",
+    "sha256":  "2bb65ee26e289c01f2c4d8a6cf64b8aa1c74b78b746781beddd216727e65ef84",
     "required":  false,
     "notes":  [
-                  "Sửa tách phụ đề OCR cho thoại rất nhanh/1 từ, không để câu trước bắc cầu nuốt câu mới.",
-                  "Giữ near-miss sát biên để OCR cứu các câu ngắn như vâng, ừ, một chữ Trung.",
-                  "Kế thừa tùy chỉnh font, màu chữ và màu nền phụ đề khi xuất video."
+                  "Tăng recall OCR cho thoại cực nhanh: một frame ổn định cũng được tạo cue.",
+                  "Tách ngay khi mask chữ đổi, tránh câu trước nuốt lời thoại 0.x giây hoặc một từ.",
+                  "Giữ lọc rác ở bước OCR/post-process để ưu tiên không sót phụ đề."
               ]
 }
