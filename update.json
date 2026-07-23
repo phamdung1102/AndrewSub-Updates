@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.5.13",
+    "version":  "1.6.0",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.5.13.zip",
-    "sha256":  "d6395e8db0d5b33a2e92a8047a6ba09fa059df9c32e86f496ae7f087f9f14ad4",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.0.zip",
+    "sha256":  "0096a207edd4472fc4a07ba3e6c266a71a7a1f9b39540d245ff79d4b9a0220e1",
     "required":  false,
     "notes":  [
-                  "Cải thiện chia câu Whisper: ngưỡng nghỉ thích nghi, không băm câu ngắn và tự ghép mảnh 1–2 chữ an toàn. Tự chuyển cấu hình chia câu cũ sang mặc định mới. Tự sửa Wake URL Function Compute sai từ vvxitzvqfm sang xvxitzvqfm."
+                  "Whisper Server tự đánh thức máy GPU và báo lỗi cấu hình ngay thay vì treo kết nối. Cải thiện chia câu Whisper bằng khoảng nghỉ thích nghi. Sắp xếp lại panel giọng đọc, tránh tên voice chồng nhau; làm nổi bật Áp dụng toàn bộ và Tạo toàn bộ giọng đọc; bỏ khối thông tin dòng dư thừa."
               ]
 }
