@@ -1,10 +1,11 @@
 ﻿{
-    "version":  "1.6.4",
+    "version":  "1.6.5",
     "type":  "patch",
-    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.4.zip",
-    "sha256":  "cd14607f49021c3d57566bafb77d9af5d27472743ff7e4b65d6ec53834442daf",
+    "url":  "https://raw.githubusercontent.com/phamdung1102/AndrewSub-Updates/main/AndrewSub-Patch-1.6.5.zip",
+    "sha256":  "e44b747f345e72793c911c321bc1b0330d9f0c7b837b65265b4ea99ead9e1d16",
     "required":  false,
     "notes":  [
-                  "Tinh gọn Cài đặt: ẩn mục Kết nối cũ; đổi tên nguồn dịch thành Dịch nhanh và Dịch Gemini; che địa chỉ dịch vụ; chỉ báo kiểm tra máy chủ chỉ hiện Kết nối thành công."
+                  "Đổi logo ứng dụng.",
+                  "Thêm tùy chọn số luồng gửi OCR máy chủ trong Cài đặt."
               ]
 }
