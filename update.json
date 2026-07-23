@@ -1,12 +1,10 @@
 ﻿{
-    "version":  "1.6.9",
+    "version":  "1.6.10",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.9/AndrewSub-Patch-1.6.9.zip",
-    "sha256":  "2bb65ee26e289c01f2c4d8a6cf64b8aa1c74b78b746781beddd216727e65ef84",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.10/AndrewSub-Patch-1.6.10.zip",
+    "sha256":  "f4eab0dd53cdeba8eae41d4e13aee50df769908ad2341f46c1a009414ea3f771",
     "required":  false,
     "notes":  [
-                  "Tăng recall OCR cho thoại cực nhanh: một frame ổn định cũng được tạo cue.",
-                  "Tách ngay khi mask chữ đổi, tránh câu trước nuốt lời thoại 0.x giây hoặc một từ.",
-                  "Giữ lọc rác ở bước OCR/post-process để ưu tiên không sót phụ đề."
+                  "Sửa ký tự lạ, lọc OCR rác dạng số/cụm chữ rời và giảm lặp cue phụ đề cực ngắn."
               ]
 }
