@@ -1,13 +1,12 @@
 ﻿{
-    "version":  "1.6.15",
+    "version":  "1.6.16",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.15/AndrewSub-Patch-1.6.15.zip",
-    "sha256":  "c51c97dd672c897ad6aeed6a5f4fd39b7636a43360d8dbc648e299b5230cf586",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.16/AndrewSub-Patch-1.6.16.zip",
+    "sha256":  "59115ecafbd3c2158aeb561f7b78ceeb2a27b686501563ee9ab077e176cd67f4",
     "required":  false,
     "notes":  [
-                  "Đổi OCR timing sang frame-true: chữ hiện frame nào thì cue đóng/mở theo frame đó, không bắc cầu khoảng trống.",
-                  "Bỏ cơ chế kéo thời lượng tối thiểu nhân tạo cho câu ngắn.",
-                  "Chỉ gộp lại khi OCR text giống hệt và bị đứt do nháy 1 frame; không gộp khác text.",
-                  "Làm sạch marker số/lặp text ngắn hẹp cho timeline tiếng Trung."
+                  "Nâng bản cập nhật để áp dụng cơ chế OCR frame-true mới nhất.",
+                  "Giữ cue thoại ngắn theo đúng frame chữ xuất hiện, không bắc cầu khoảng trống.",
+                  "Chỉ gộp cue khi OCR text giống hệt và bị đứt do nháy frame."
               ]
 }
