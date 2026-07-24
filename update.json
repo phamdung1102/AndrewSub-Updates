@@ -1,13 +1,10 @@
 ﻿{
-    "version":  "1.7.3",
+    "version":  "1.7.4",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.3/AndrewSub-Patch-1.7.3.zip",
-    "sha256":  "90fac1de358738bb62bae09d381ce0977b84b723722451c0e39eda87ee5c72c2",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.4/AndrewSub-Patch-1.7.4.zip",
+    "sha256":  "85cf758f570a1d5d205e1d1c57ecef9e7a619b9940242dd22c306e3f9203d36a",
     "required":  false,
     "notes":  [
-                  "OCR server mới nhận batch 15-20 ảnh/lượt, giảm thời gian chờ so với gửi từng ảnh.",
-                  "Mỗi ảnh trong montage vẫn có marker số rõ để server ráp đúng candidate id.",
-                  "Nếu marker lệch, app tự chia nhỏ lô và thử lại để không mất phụ đề.",
-                  "Giữ cơ chế gửi riêng cho câu rất ngắn/vùng chữ hẹp nhằm hạn chế gộp thoại nhanh."
+                  "Tối ưu tốc độ OCR máy chủ: giữ batch 20 ảnh/lượt khi server hỗ trợ centered-v3.,Không còn ép câu ngắn gửi từng ảnh riêng trên server OCR mới, giảm mạnh số request cho video dài.,Client tự đọc capability server khi chạy OCR thật, không phụ thuộc thao tác kiểm tra kết nối trong Cài đặt."
               ]
 }
