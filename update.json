@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.6.12",
+    "version":  "1.6.13",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.12/AndrewSub-Patch-1.6.12.zip",
-    "sha256":  "14f5f50459a9d378df4789e223a93762fc96db50929c25860f5bfa5000ba03d9",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.13/AndrewSub-Patch-1.6.13.zip",
+    "sha256":  "f61f708a3520033b847304057f5238b8e9e76d4b2ce5e1d35d664909468da558",
     "required":  false,
     "notes":  [
-                  "Siết timing tách phụ đề OCR: giảm kéo đuôi câu trước sang câu sau.",
-                  "Giữ riêng các câu thoại rất ngắn/lặp nhanh, hạn chế gộp nhầm.",
-                  "Cắt lại biên khi candidate rescue bị overlap để phụ đề và voice bám đúng thời điểm xuất hiện."
+                  "Thêm pass cứu cue nhanh: OCR thêm near-miss ngắn dù overlap với cue đã có nếu glyph đủ chắc.",
+                  "Tự bỏ dòng OCR gộp khi có nhiều cue nhanh phủ cùng thời điểm và giải thích được text gộp.",
+                  "Giữ timing riêng cho câu thoại rất ngắn để giảm chậm sub/voice và giảm gộp nhầm."
               ]
 }
