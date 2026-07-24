@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.7.0",
+    "version":  "1.7.1",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.0/AndrewSub-Patch-1.7.0.zip",
-    "sha256":  "c8023d685a6b673ae77928c72189bf738e214f7ecf287b1280b3246649e6abf8",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.1/AndrewSub-Patch-1.7.1.zip",
+    "sha256":  "de0723cbe41dde4a8785f70dd60e1d101714d1900d670a29904db2b76be7825f",
     "required":  false,
     "notes":  [
-                  "Giữ OCR câu thoại cực ngắn sát biên; thay bốn vị trí cố định bằng hai thanh kéo ngang và dọc, đồng bộ preview với video xuất."
+                  "Tách riêng từng ảnh OCR để không gộp hoặc đẩy lệch các câu thoại cực ngắn.,Bỏ giới hạn 12 luồng; chạy đúng số luồng máy chủ được cấu hình.,Không tái sử dụng checkpoint OCR cũ đã được tạo bằng cơ chế ghép nhiều ảnh."
               ]
 }
