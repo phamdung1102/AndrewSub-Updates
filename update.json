@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.6.17",
+    "version":  "1.6.18",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.17/AndrewSub-Patch-1.6.17.zip",
-    "sha256":  "26aaad87e392ed45f5ef4db7677a368e3322fce32b06658f31394ec21bf15d1d",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.18/AndrewSub-Patch-1.6.18.zip",
+    "sha256":  "85f1c612144bfe11197b5bbae637641e545a84bb67c55061348098fba71ec6b5",
     "required":  false,
     "notes":  [
-                  "Sửa phụ đề chèn video cho cue ngắn: thời lượng hiển thị bám theo voice thực tế thay vì chỉ theo OCR gốc.",
-                  "Voice timeline giữ nguyên; chỉ timeline ASS/SRT dùng khi xuất video được kéo theo voice.",
-                  "Blur phụ đề gốc vẫn giữ OCR timing để che đúng chữ gốc trên hình."
+                  "Nâng bản cập nhật để áp dụng sửa phụ đề chèn video bám theo voice thực tế.",
+                  "Giữ voice timeline nguyên bản; chỉ kéo timeline hiển thị phụ đề khi xuất video.",
+                  "Giảm lỗi câu ngắn bị đọc với text sau khi burn subtitle."
               ]
 }
