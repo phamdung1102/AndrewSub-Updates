@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.7.6",
+    "version":  "1.7.7",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.6/AndrewSub-Patch-1.7.6.zip",
-    "sha256":  "8e7f985f4c161d73a61d2d63a6595232d0e4033a60250c6d4efb9365289f9b40",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.7/AndrewSub-Patch-1.7.7.zip",
+    "sha256":  "c96acb00c26024be3637bd43daf3ab46d7410ec955806f664d31e8086f4fcfab",
     "required":  false,
     "notes":  [
-                  "Sửa lặp phụ đề do cue cực ngắn ở mép chuyển cảnh.",
-                  "Bỏ lát OCR 0.04–0.25 giây khi text là bản lặp/prefix/suffix của dòng sát cạnh.",
-                  "Giữ an toàn cho thoại ngắn thật như một-hai chữ, tránh gộp nhầm câu thật."
+                  "Tăng mặc định luồng gửi OCR máy chủ từ 5 lên 8.",
+                  "Giữ batch 20 ảnh/lượt để tận dụng server 20 worker mà không tăng rủi ro marker.",
+                  "Cấu hình hiện tại được đặt về 8 luồng gửi song song cho OCR server."
               ]
 }
