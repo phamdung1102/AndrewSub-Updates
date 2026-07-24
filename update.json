@@ -1,10 +1,13 @@
 ﻿{
-    "version":  "1.7.1",
+    "version":  "1.7.2",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.1/AndrewSub-Patch-1.7.1.zip",
-    "sha256":  "de0723cbe41dde4a8785f70dd60e1d101714d1900d670a29904db2b76be7825f",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.2/AndrewSub-Patch-1.7.2.zip",
+    "sha256":  "3d6b3fd1b0e1ccb10a49869d891142b4352d61e3e82843d00c57aec0c77b535e",
     "required":  false,
     "notes":  [
-                  "Tách riêng từng ảnh OCR để không gộp hoặc đẩy lệch các câu thoại cực ngắn.,Bỏ giới hạn 12 luồng; chạy đúng số luồng máy chủ được cấu hình.,Không tái sử dụng checkpoint OCR cũ đã được tạo bằng cơ chế ghép nhiều ảnh."
+                  "OCR gửi lô thích ứng: máy chủ mới dùng tối đa 8 ảnh/lượt, máy cũ tự hạ về từng ảnh.",
+                  "Câu rất ngắn hoặc vùng chữ hẹp được gửi riêng để giảm gộp lời thoại nhanh.",
+                  "Nếu máy chủ đọc lệch marker, app tự chia nhỏ lô và thử lại thay vì mất phụ đề.",
+                  "Bỏ giới hạn luồng gửi cứng; số luồng dùng theo thiết lập và năng lực máy chủ."
               ]
 }
