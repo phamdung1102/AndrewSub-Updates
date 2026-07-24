@@ -5,6 +5,8 @@
     "sha256":  "85cf758f570a1d5d205e1d1c57ecef9e7a619b9940242dd22c306e3f9203d36a",
     "required":  false,
     "notes":  [
-                  "Tối ưu tốc độ OCR máy chủ: giữ batch 20 ảnh/lượt khi server hỗ trợ centered-v3.,Không còn ép câu ngắn gửi từng ảnh riêng trên server OCR mới, giảm mạnh số request cho video dài.,Client tự đọc capability server khi chạy OCR thật, không phụ thuộc thao tác kiểm tra kết nối trong Cài đặt."
+                  "Tối ưu tốc độ OCR máy chủ: giữ batch 20 ảnh/lượt khi server hỗ trợ centered-v3.",
+                  "Không còn ép câu ngắn gửi từng ảnh riêng trên server OCR mới, giảm mạnh số request cho video dài.",
+                  "Client tự đọc capability server khi chạy OCR thật, không phụ thuộc thao tác kiểm tra kết nối trong Cài đặt."
               ]
 }
