@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.6.20",
+    "version":  "1.7.0",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.20/AndrewSub-Patch-1.6.20.zip",
-    "sha256":  "f9a7b3e71eaaded4984c9b0bbe5c585b4ffa67584d843f16543c4415ac86604f",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.0/AndrewSub-Patch-1.7.0.zip",
+    "sha256":  "c8023d685a6b673ae77928c72189bf738e214f7ecf287b1280b3246649e6abf8",
     "required":  false,
     "notes":  [
-                  "Ổn định OCR song song và thứ tự dòng; cải thiện gộp track cùng nét, giữ thoại ngắn, ngăn phụ đề lặp; phân loại retry, timeout mạng; bảo vệ khóa dịch vụ và đồng bộ phiên bản đóng gói."
+                  "Giữ OCR câu thoại cực ngắn sát biên; thay bốn vị trí cố định bằng hai thanh kéo ngang và dọc, đồng bộ preview với video xuất."
               ]
 }
