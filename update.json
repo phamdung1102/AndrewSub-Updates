@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.7.4",
+    "version":  "1.7.5",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.4/AndrewSub-Patch-1.7.4.zip",
-    "sha256":  "85cf758f570a1d5d205e1d1c57ecef9e7a619b9940242dd22c306e3f9203d36a",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.5/AndrewSub-Patch-1.7.5.zip",
+    "sha256":  "7ac0867b7c82a3b7c2f0acd98b2259e0d7c277edb9c36ac6b8a0d5a22fffecff",
     "required":  false,
     "notes":  [
-                  "Tối ưu tốc độ OCR máy chủ: giữ batch 20 ảnh/lượt khi server hỗ trợ centered-v3.",
-                  "Không còn ép câu ngắn gửi từng ảnh riêng trên server OCR mới, giảm mạnh số request cho video dài.",
-                  "Client tự đọc capability server khi chạy OCR thật, không phụ thuộc thao tác kiểm tra kết nối trong Cài đặt."
+                  "Tối ưu gom lô OCR máy chủ: server centered-v3 chờ đủ batch thật thay vì gửi lô nhỏ sau 1 giây.",
+                  "Giảm số request OCR cho video dài, đặc biệt đoạn thoại thưa hoặc nhiều câu ngắn.",
+                  "Giữ batch 20 ảnh/lượt và tương thích checkpoint/protocol hiện tại."
               ]
 }
