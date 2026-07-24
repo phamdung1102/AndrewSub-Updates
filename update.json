@@ -1,12 +1,10 @@
 ﻿{
-    "version":  "1.6.19",
+    "version":  "1.6.20",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.19/AndrewSub-Patch-1.6.19.zip",
-    "sha256":  "24b9b1b707eab8932667068850e654438adcd045e764e9d8a2f15375b00d968e",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.20/AndrewSub-Patch-1.6.20.zip",
+    "sha256":  "f9a7b3e71eaaded4984c9b0bbe5c585b4ffa67584d843f16543c4415ac86604f",
     "required":  false,
     "notes":  [
-                  "Bổ sung raw-frame rescue cho OCR detector để giữ phụ đề/câu thoại cực ngắn trước khi temporal filter triệt mất.",
-                  "Giữ nguyên đường lọc ổn định 2/3 cho nền nhiễu; raw-frame chỉ dùng khi nét chữ đủ mạnh.",
-                  "Giảm bỏ sót và gộp nhầm các câu ngắn 1-2 từ khi tách phụ đề trong hình."
+                  "Ổn định OCR song song và thứ tự dòng; cải thiện gộp track cùng nét, giữ thoại ngắn, ngăn phụ đề lặp; phân loại retry, timeout mạng; bảo vệ khóa dịch vụ và đồng bộ phiên bản đóng gói."
               ]
 }
