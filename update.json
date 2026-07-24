@@ -1,12 +1,13 @@
 ﻿{
-    "version":  "1.6.14",
+    "version":  "1.6.15",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.14/AndrewSub-Patch-1.6.14.zip",
-    "sha256":  "dca197c9a9f683420034eb8a518d3d5aacbc8baec0613e7b9206a71af3138859",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.15/AndrewSub-Patch-1.6.15.zip",
+    "sha256":  "c51c97dd672c897ad6aeed6a5f4fd39b7636a43360d8dbc648e299b5230cf586",
     "required":  false,
     "notes":  [
-                  "Sửa timing cue OCR rất ngắn: không còn xuất 1-2 chữ thành 0.04-0.08s nếu còn khoảng trống hiển thị.",
-                  "Near-miss phụ đề nhanh được giữ tối thiểu đủ thời lượng trước khi OCR và ráp timeline.",
-                  "Làm sạch hẹp marker OCR dính cuối/đầu và dòng ngắn bị đọc lặp trong phim Trung."
+                  "Đổi OCR timing sang frame-true: chữ hiện frame nào thì cue đóng/mở theo frame đó, không bắc cầu khoảng trống.",
+                  "Bỏ cơ chế kéo thời lượng tối thiểu nhân tạo cho câu ngắn.",
+                  "Chỉ gộp lại khi OCR text giống hệt và bị đứt do nháy 1 frame; không gộp khác text.",
+                  "Làm sạch marker số/lặp text ngắn hẹp cho timeline tiếng Trung."
               ]
 }
