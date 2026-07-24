@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.6.16",
+    "version":  "1.6.17",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.16/AndrewSub-Patch-1.6.16.zip",
-    "sha256":  "59115ecafbd3c2158aeb561f7b78ceeb2a27b686501563ee9ab077e176cd67f4",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.17/AndrewSub-Patch-1.6.17.zip",
+    "sha256":  "26aaad87e392ed45f5ef4db7677a368e3322fce32b06658f31394ec21bf15d1d",
     "required":  false,
     "notes":  [
-                  "Nâng bản cập nhật để áp dụng cơ chế OCR frame-true mới nhất.",
-                  "Giữ cue thoại ngắn theo đúng frame chữ xuất hiện, không bắc cầu khoảng trống.",
-                  "Chỉ gộp cue khi OCR text giống hệt và bị đứt do nháy frame."
+                  "Sửa phụ đề chèn video cho cue ngắn: thời lượng hiển thị bám theo voice thực tế thay vì chỉ theo OCR gốc.",
+                  "Voice timeline giữ nguyên; chỉ timeline ASS/SRT dùng khi xuất video được kéo theo voice.",
+                  "Blur phụ đề gốc vẫn giữ OCR timing để che đúng chữ gốc trên hình."
               ]
 }
