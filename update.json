@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.6.13",
+    "version":  "1.6.14",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.13/AndrewSub-Patch-1.6.13.zip",
-    "sha256":  "f61f708a3520033b847304057f5238b8e9e76d4b2ce5e1d35d664909468da558",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.6.14/AndrewSub-Patch-1.6.14.zip",
+    "sha256":  "dca197c9a9f683420034eb8a518d3d5aacbc8baec0613e7b9206a71af3138859",
     "required":  false,
     "notes":  [
-                  "Thêm pass cứu cue nhanh: OCR thêm near-miss ngắn dù overlap với cue đã có nếu glyph đủ chắc.",
-                  "Tự bỏ dòng OCR gộp khi có nhiều cue nhanh phủ cùng thời điểm và giải thích được text gộp.",
-                  "Giữ timing riêng cho câu thoại rất ngắn để giảm chậm sub/voice và giảm gộp nhầm."
+                  "Sửa timing cue OCR rất ngắn: không còn xuất 1-2 chữ thành 0.04-0.08s nếu còn khoảng trống hiển thị.",
+                  "Near-miss phụ đề nhanh được giữ tối thiểu đủ thời lượng trước khi OCR và ráp timeline.",
+                  "Làm sạch hẹp marker OCR dính cuối/đầu và dòng ngắn bị đọc lặp trong phim Trung."
               ]
 }
