@@ -1,10 +1,10 @@
 {
-  "version": "1.7.19",
+  "version": "1.7.20",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.19/AndrewSub-Patch-1.7.19.zip",
-  "sha256": "7ae43e060327f5fe79c0678ed116cfba56f38f5f08bdfde0955d0bec9b12992b",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.20/AndrewSub-Patch-1.7.20.zip",
+  "sha256": "ddc7048d73be85ce20256636ff66dcacde51af28f50dfb22be44f48b88f84045",
   "required": false,
   "notes": [
-    "Sửa OCR máy chủ dùng đúng số luồng worker khi kết nối server; mặc định gửi OCR server 20 luồng; chuyển kênh tự cập nhật sang GitHub Releases/latest; sửa đọc settings UTF-8 BOM."
+    "Tối ưu gửi OCR máy chủ: không chờ batch 20 ảnh quá lâu; flush batch phụ nhanh 0.8-1.2s để scan local và OCR server chồng việc đều hơn, không phụ thuộc số tài khoản server."
   ]
 }
