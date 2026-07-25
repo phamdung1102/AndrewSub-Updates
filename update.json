@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.7.8",
+    "version":  "1.7.9",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.8/AndrewSub-Patch-1.7.8.zip",
-    "sha256":  "653dc5a10662f658f41a9fadb1ddb81f2a5fd2e37368b937787546f42078f89d",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.9/AndrewSub-Patch-1.7.9.zip",
+    "sha256":  "e1e5d4c774a9096c81f940695e79592083b6080e15e5fa9b4e74e5b5cc41153a",
     "required":  false,
     "notes":  [
-                  "Tối ưu OCR máy chủ: batch thường vẫn lớn, cue ngắn đi lô nhỏ và flush nhanh để giảm gộp/lọt thoại nhanh."
+                  "Khôi phục tốc độ OCR máy chủ: remote OCR gom batch lớn như trước; server chỉ chia nhỏ khi batch thật sự lỗi marker."
               ]
 }
