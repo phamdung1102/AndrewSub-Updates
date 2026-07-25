@@ -1,12 +1,10 @@
 ﻿{
-    "version":  "1.7.7",
+    "version":  "1.7.8",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.7/AndrewSub-Patch-1.7.7.zip",
-    "sha256":  "c96acb00c26024be3637bd43daf3ab46d7410ec955806f664d31e8086f4fcfab",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.8/AndrewSub-Patch-1.7.8.zip",
+    "sha256":  "653dc5a10662f658f41a9fadb1ddb81f2a5fd2e37368b937787546f42078f89d",
     "required":  false,
     "notes":  [
-                  "Tăng mặc định luồng gửi OCR máy chủ từ 5 lên 8.",
-                  "Giữ batch 20 ảnh/lượt để tận dụng server 20 worker mà không tăng rủi ro marker.",
-                  "Cấu hình hiện tại được đặt về 8 luồng gửi song song cho OCR server."
+                  "Tối ưu OCR máy chủ: batch thường vẫn lớn, cue ngắn đi lô nhỏ và flush nhanh để giảm gộp/lọt thoại nhanh."
               ]
 }
