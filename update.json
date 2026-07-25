@@ -1,10 +1,10 @@
 {
-  "version": "1.7.23",
+  "version": "1.7.24",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.23/AndrewSub-Patch-1.7.23.zip",
-  "sha256": "7a51ac50c7f809f21a0b5b741441644c3acd9c5511fefcf3905c5b72d405fc04",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.24/AndrewSub-Patch-1.7.24.zip",
+  "sha256": "11cd3bfdbd8b923cfcef0c805425c1c45fb60d9b95b3009ad0a562b6ad23e2d1",
   "required": false,
   "notes": [
-    "Rollback cơ chế chia 2 luồng OCR video dài; quay về tách OCR một pipeline ổn định. Giữ lựa chọn OCR Nhanh 18 fps / Chuẩn 25 fps."
+    "AndrewSub v1.7.24\n\n- Khôi phục tốc độ tách phụ đề ở chế độ Nhanh: mặc định không còn bị kéo về chế độ Chuẩn 25 fps từ config cũ.\n- Chế độ Nhanh bỏ các lượt OCR phụ/cứu hộ cuối pipeline để tránh video ngắn bị kéo dài vô lý.\n- Chế độ Chuẩn vẫn giữ các kiểm tra phụ khi cần ưu tiên chất lượng."
   ]
 }
