@@ -1,11 +1,12 @@
 ﻿{
-  "version": "1.7.12",
-  "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.12/AndrewSub-Patch-1.7.12.zip",
-  "sha256": "f60b1f8499adb8bee03adc0be760798a80fe750458be63f77a6940100fba9fcf",
-  "required": false,
-  "notes": [
-    "Tối ưu gom batch OCR server: tăng cửa sổ gom lô lên 12 giây để giảm request nhỏ.",
-    "Bổ sung thống kê phân bố batch và thời gian chờ queue OCR để soi bottleneck tốc độ."
-  ]
+    "version":  "1.7.13",
+    "type":  "patch",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.13/AndrewSub-Patch-1.7.13.zip",
+    "sha256":  "f0578328ddc6eba9402dae0bcc7be5573ec09d14a93078bed188afb21242ee00",
+    "required":  false,
+    "notes":  [
+                  "Tách OCR thành luồng thường/ngắn/siêu ngắn để giảm gộp câu thoại ngắn.",
+                  "Batch thường vẫn giữ lô lớn; câu ngắn đi luồng riêng để tránh phá tốc độ.",
+                  "Bổ sung thống kê lane normal/short/single trong log tách phụ đề."
+              ]
 }
