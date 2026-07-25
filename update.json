@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.7.17",
+    "version":  "1.7.18",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.17/AndrewSub-Patch-1.7.17.zip",
-    "sha256":  "9f4ecfc5c96ad6332f0279808cd29f1cfe456035210c82d26d2aa876a89732b1",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.18/AndrewSub-Patch-1.7.18.zip",
+    "sha256":  "3aa776e3aef827376d1b2caef8f12958891425972bde89e18f4c14af951e2f04",
     "required":  false,
     "notes":  [
-                  "Tối ưu OCR máy chủ: gom batch lớn để tận dụng pool nhiều tài khoản; chỉ chia nhỏ khi batch lỗi marker."
+                  "Sửa OCR máy chủ chỉ chạy 1 worker trong pipeline streaming; remote OCR giờ dùng đúng số luồng cấu hình, mặc định 20."
               ]
 }
