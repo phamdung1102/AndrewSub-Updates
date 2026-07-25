@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.7.10",
+    "version":  "1.7.11",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.10/AndrewSub-Patch-1.7.10.zip",
-    "sha256":  "476e3b6496c286df038153cfb9642049f0599e0470a3cbeacd23eb5f84042891",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.11/AndrewSub-Patch-1.7.11.zip",
+    "sha256":  "909f4fb997774cc2c718b8918bee10feebb40ddaf5d19beb77c79cfea7e3c718",
     "required":  false,
     "notes":  [
-                  "Tăng thời gian gom batch OCR máy chủ lên 8 giây để giảm request nhỏ; đủ batch hoặc hết video vẫn gửi ngay."
+                  "Bổ sung thống kê thời gian tách phụ đề: tổng, quét local, chờ OCR, hậu xử lý, số candidate, ảnh và batch OCR."
               ]
 }
