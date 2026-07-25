@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.7.14",
+    "version":  "1.7.15",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.14/AndrewSub-Patch-1.7.14.zip",
-    "sha256":  "2b8346dc890598a6964e72c461c62c019cc05dd476ef5c6f2895a6747d7af4e1",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.15/AndrewSub-Patch-1.7.15.zip",
+    "sha256":  "2e96deb5bc729bf95039d1e7d8ad92df8f3d988c20b04eea50ba213887b25f58",
     "required":  false,
     "notes":  [
-                  "Rollback OCR lane ngắn về batch thường để khôi phục tốc độ tách phụ đề.",
-                  "Giữ thống kê pipeline, không còn tách câu ngắn thành nhiều request nhỏ mặc định.",
-                  "Chuẩn bị hướng tối ưu mới: xử lý hậu kỳ/timing thay vì tăng request OCR."
+                  "Tối ưu gửi OCR qua máy chủ: dùng đúng batch riêng của server thay vì batch OCR cũ.",
+                  "Thêm cấu hình số ảnh mỗi lô và số luồng gửi trong Cài đặt \u003e Nhận diện phụ đề.",
+                  "Mặc định mới: 20 ảnh/lô, 12 luồng gửi; giữ nguyên nếu người dùng đã đặt cao hơn."
               ]
 }
