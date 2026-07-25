@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.7.13",
+    "version":  "1.7.14",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.13/AndrewSub-Patch-1.7.13.zip",
-    "sha256":  "f0578328ddc6eba9402dae0bcc7be5573ec09d14a93078bed188afb21242ee00",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.14/AndrewSub-Patch-1.7.14.zip",
+    "sha256":  "2b8346dc890598a6964e72c461c62c019cc05dd476ef5c6f2895a6747d7af4e1",
     "required":  false,
     "notes":  [
-                  "Tách OCR thành luồng thường/ngắn/siêu ngắn để giảm gộp câu thoại ngắn.",
-                  "Batch thường vẫn giữ lô lớn; câu ngắn đi luồng riêng để tránh phá tốc độ.",
-                  "Bổ sung thống kê lane normal/short/single trong log tách phụ đề."
+                  "Rollback OCR lane ngắn về batch thường để khôi phục tốc độ tách phụ đề.",
+                  "Giữ thống kê pipeline, không còn tách câu ngắn thành nhiều request nhỏ mặc định.",
+                  "Chuẩn bị hướng tối ưu mới: xử lý hậu kỳ/timing thay vì tăng request OCR."
               ]
 }
