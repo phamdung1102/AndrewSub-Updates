@@ -1,12 +1,12 @@
 ﻿{
-    "version":  "1.7.15",
+    "version":  "1.7.16",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.15/AndrewSub-Patch-1.7.15.zip",
-    "sha256":  "2e96deb5bc729bf95039d1e7d8ad92df8f3d988c20b04eea50ba213887b25f58",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.16/AndrewSub-Patch-1.7.16.zip",
+    "sha256":  "0ea7f96cded5810a216302cac334898c1963adef3dac070775911001f513e37a",
     "required":  false,
     "notes":  [
-                  "Tối ưu gửi OCR qua máy chủ: dùng đúng batch riêng của server thay vì batch OCR cũ.",
-                  "Thêm cấu hình số ảnh mỗi lô và số luồng gửi trong Cài đặt \u003e Nhận diện phụ đề.",
-                  "Mặc định mới: 20 ảnh/lô, 12 luồng gửi; giữ nguyên nếu người dùng đã đặt cao hơn."
+                  "Thêm pass phụ OCR cho dòng nghi gộp/nhiễu sau pass chính batch lớn.",
+                  "Pass chính vẫn giữ batch lớn để bảo toàn tốc độ; pass phụ chỉ kiểm tra tối đa 20% candidate hoặc 80 ảnh.",
+                  "Pass phụ dùng batch 5 ảnh/lượt và chỉ thay kết quả khi OCR mới có điểm chất lượng tốt hơn."
               ]
 }
