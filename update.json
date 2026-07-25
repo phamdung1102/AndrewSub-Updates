@@ -1,12 +1,10 @@
 ﻿{
-    "version":  "1.7.16",
+    "version":  "1.7.17",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.16/AndrewSub-Patch-1.7.16.zip",
-    "sha256":  "0ea7f96cded5810a216302cac334898c1963adef3dac070775911001f513e37a",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.17/AndrewSub-Patch-1.7.17.zip",
+    "sha256":  "9f4ecfc5c96ad6332f0279808cd29f1cfe456035210c82d26d2aa876a89732b1",
     "required":  false,
     "notes":  [
-                  "Thêm pass phụ OCR cho dòng nghi gộp/nhiễu sau pass chính batch lớn.",
-                  "Pass chính vẫn giữ batch lớn để bảo toàn tốc độ; pass phụ chỉ kiểm tra tối đa 20% candidate hoặc 80 ảnh.",
-                  "Pass phụ dùng batch 5 ảnh/lượt và chỉ thay kết quả khi OCR mới có điểm chất lượng tốt hơn."
+                  "Tối ưu OCR máy chủ: gom batch lớn để tận dụng pool nhiều tài khoản; chỉ chia nhỏ khi batch lỗi marker."
               ]
 }
