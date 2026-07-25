@@ -1,10 +1,10 @@
 {
-  "version": "1.7.21",
+  "version": "1.7.22",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.21/AndrewSub-Patch-1.7.21.zip",
-  "sha256": "6a74df141ff37e82412d782b1aec813a75e850a392aa6e82e936dc49b0e4cd69",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.22/AndrewSub-Patch-1.7.22.zip",
+  "sha256": "f839eed354eb0b7556113b6e6c145fa8b81478dff36425a85eb858a64ce7a2d7",
   "required": false,
   "notes": [
-    "Thêm 2 chế độ OCR: Nhanh 18 fps và Chuẩn 25 fps; lưu theo từng dự án và dùng khi tách phụ đề."
+    "Thêm OCR song song cho video dài: chia 2 phần có overlap 8 giây, giữ timeline gốc và lọc trùng vùng overlap; giữ 2 chế độ OCR Nhanh 18 fps / Chuẩn 25 fps."
   ]
 }
