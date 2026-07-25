@@ -1,10 +1,10 @@
 {
-  "version": "1.7.22",
+  "version": "1.7.23",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.22/AndrewSub-Patch-1.7.22.zip",
-  "sha256": "f839eed354eb0b7556113b6e6c145fa8b81478dff36425a85eb858a64ce7a2d7",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.23/AndrewSub-Patch-1.7.23.zip",
+  "sha256": "7a51ac50c7f809f21a0b5b741441644c3acd9c5511fefcf3905c5b72d405fc04",
   "required": false,
   "notes": [
-    "Thêm OCR song song cho video dài: chia 2 phần có overlap 8 giây, giữ timeline gốc và lọc trùng vùng overlap; giữ 2 chế độ OCR Nhanh 18 fps / Chuẩn 25 fps."
+    "Rollback cơ chế chia 2 luồng OCR video dài; quay về tách OCR một pipeline ổn định. Giữ lựa chọn OCR Nhanh 18 fps / Chuẩn 25 fps."
   ]
 }
