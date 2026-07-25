@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.7.9",
+    "version":  "1.7.10",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.9/AndrewSub-Patch-1.7.9.zip",
-    "sha256":  "e1e5d4c774a9096c81f940695e79592083b6080e15e5fa9b4e74e5b5cc41153a",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.10/AndrewSub-Patch-1.7.10.zip",
+    "sha256":  "476e3b6496c286df038153cfb9642049f0599e0470a3cbeacd23eb5f84042891",
     "required":  false,
     "notes":  [
-                  "Khôi phục tốc độ OCR máy chủ: remote OCR gom batch lớn như trước; server chỉ chia nhỏ khi batch thật sự lỗi marker."
+                  "Tăng thời gian gom batch OCR máy chủ lên 8 giây để giảm request nhỏ; đủ batch hoặc hết video vẫn gửi ngay."
               ]
 }
