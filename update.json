@@ -1,10 +1,10 @@
 {
-  "version": "1.7.20",
+  "version": "1.7.21",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.20/AndrewSub-Patch-1.7.20.zip",
-  "sha256": "ddc7048d73be85ce20256636ff66dcacde51af28f50dfb22be44f48b88f84045",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.21/AndrewSub-Patch-1.7.21.zip",
+  "sha256": "6a74df141ff37e82412d782b1aec813a75e850a392aa6e82e936dc49b0e4cd69",
   "required": false,
   "notes": [
-    "Tối ưu gửi OCR máy chủ: không chờ batch 20 ảnh quá lâu; flush batch phụ nhanh 0.8-1.2s để scan local và OCR server chồng việc đều hơn, không phụ thuộc số tài khoản server."
+    "Thêm 2 chế độ OCR: Nhanh 18 fps và Chuẩn 25 fps; lưu theo từng dự án và dùng khi tách phụ đề."
   ]
 }
