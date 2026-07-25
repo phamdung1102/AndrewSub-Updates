@@ -1,10 +1,10 @@
 {
-  "version": "1.7.24",
+  "version": "1.7.25",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.24/AndrewSub-Patch-1.7.24.zip",
-  "sha256": "11cd3bfdbd8b923cfcef0c805425c1c45fb60d9b95b3009ad0a562b6ad23e2d1",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.25/AndrewSub-Patch-1.7.25.zip",
+  "sha256": "eee8c07ba5ab960fd1b7607516f3504cc6209e0c8c0f8019a1c8bc34533ca2d5",
   "required": false,
   "notes": [
-    "AndrewSub v1.7.24\n\n- Khôi phục tốc độ tách phụ đề ở chế độ Nhanh: mặc định không còn bị kéo về chế độ Chuẩn 25 fps từ config cũ.\n- Chế độ Nhanh bỏ các lượt OCR phụ/cứu hộ cuối pipeline để tránh video ngắn bị kéo dài vô lý.\n- Chế độ Chuẩn vẫn giữ các kiểm tra phụ khi cần ưu tiên chất lượng."
+    "AndrewSub v1.7.25\n\n- Nâng version cho bản vá tốc độ OCR nhanh.\n- Chế độ Nhanh không còn bị config cũ kéo về 25 fps.\n- Chế độ Nhanh bỏ các lượt OCR phụ/cứu hộ cuối pipeline để giảm thời gian tách video ngắn.\n- Chế độ Chuẩn vẫn giữ đầy đủ kiểm tra phụ khi cần ưu tiên chất lượng."
   ]
 }
