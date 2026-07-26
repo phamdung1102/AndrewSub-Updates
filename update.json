@@ -1,10 +1,10 @@
-{
-  "version": "1.7.25",
-  "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.25/AndrewSub-Patch-1.7.25.zip",
-  "sha256": "eee8c07ba5ab960fd1b7607516f3504cc6209e0c8c0f8019a1c8bc34533ca2d5",
-  "required": false,
-  "notes": [
-    "AndrewSub v1.7.25\n\n- Nâng version cho bản vá tốc độ OCR nhanh.\n- Chế độ Nhanh không còn bị config cũ kéo về 25 fps.\n- Chế độ Nhanh bỏ các lượt OCR phụ/cứu hộ cuối pipeline để giảm thời gian tách video ngắn.\n- Chế độ Chuẩn vẫn giữ đầy đủ kiểm tra phụ khi cần ưu tiên chất lượng."
-  ]
+﻿{
+    "version":  "1.7.26",
+    "type":  "patch",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.26/AndrewSub-Patch-1.7.26.zip",
+    "sha256":  "9516c8ecee23541daadad4e4d74948a1fae7681f0fb1be2f57f37ef92bc449e0",
+    "required":  false,
+    "notes":  [
+                  "AndrewSub v1.7.26\n\n- Sửa luồng OCR máy chủ: dùng một adapter remote, để server tự phân phối worker/tài khoản.\n- Nhận diện đúng lỗi client_rate_limited và cooldown thay vì retry/split batch vô ích.\n- Thêm thống kê batch thực tế, retry, queue để đo nghẽn OCR rõ hơn."
+              ]
 }
