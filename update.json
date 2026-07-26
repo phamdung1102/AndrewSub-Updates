@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.8.2",
+    "version":  "1.8.3",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.2/AndrewSub-Patch-1.8.2.zip",
-    "sha256":  "1732217fd77ec3c2a379c84d6185eafc170857b8379607d31dded41868d58b66",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.3/AndrewSub-Patch-1.8.3.zip",
+    "sha256":  "972760dbe449df5a881d8044b7f113e9a07f04620d37d791df8f5245f61439f6",
     "required":  false,
     "notes":  [
-                  "Copy Voice ID tự dò tên giọng và lưu bằng tên dễ đọc trong tab Phụ đề."
+                  "Sửa import Voice ID: không dò mạng khi refresh để tránh đơ, cho nhập tên hiển thị và lưu bằng tên dễ đọc."
               ]
 }
