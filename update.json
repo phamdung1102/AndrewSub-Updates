@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.8.0",
+    "version":  "1.8.2",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.0/AndrewSub-Patch-1.8.0.zip",
-    "sha256":  "2d1d3d7c0e10c2c9cc58246228328b4ef1b8d861f2ff7e2ccc2661745a131ff3",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.2/AndrewSub-Patch-1.8.2.zip",
+    "sha256":  "1732217fd77ec3c2a379c84d6185eafc170857b8379607d31dded41868d58b66",
     "required":  false,
     "notes":  [
-                  "AndrewSub v1.8.0\n\n- Sửa kênh cập nhật: release có kèm update.json để app kiểm tra qua latest/download/update.json không còn lỗi 404.\n- Rút gọn trạng thái nhận diện phụ đề: quét video, gửi máy chủ, máy chủ nhận diện, kiểm tra.\n- Sửa tiến độ OCR nền sau khi quét xong: không đứng 40% rồi nhảy 97%.\n- Giữ nguyên cơ chế ưu tiên không mất câu ngắn."
+                  "Copy Voice ID tự dò tên giọng từ catalog/API/ElevenLabs Library.,Lưu giọng mới bằng tên dễ đọc để chọn trong tab Phụ đề."
               ]
 }
