@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.7.26",
+    "version":  "1.7.27",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.26/AndrewSub-Patch-1.7.26.zip",
-    "sha256":  "9516c8ecee23541daadad4e4d74948a1fae7681f0fb1be2f57f37ef92bc449e0",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.7.27/AndrewSub-Patch-1.7.27.zip",
+    "sha256":  "24030fdf670980e83806535ff9426c0aef79eebcddd5524a001ed28282dd203e",
     "required":  false,
     "notes":  [
-                  "AndrewSub v1.7.26\n\n- Sửa luồng OCR máy chủ: dùng một adapter remote, để server tự phân phối worker/tài khoản.\n- Nhận diện đúng lỗi client_rate_limited và cooldown thay vì retry/split batch vô ích.\n- Thêm thống kê batch thực tế, retry, queue để đo nghẽn OCR rõ hơn."
+                  "AndrewSub v1.7.27\n\n- Rút gọn trạng thái nhận diện phụ đề: chỉ hiển thị quét video, gửi máy chủ, máy chủ nhận diện và kiểm tra.\n- Sửa tiến độ OCR nền sau khi quét xong: không đứng 40% rồi nhảy 97%.\n- Giữ nguyên cơ chế ưu tiên không mất câu ngắn."
               ]
 }
