@@ -5,6 +5,7 @@
     "sha256":  "1732217fd77ec3c2a379c84d6185eafc170857b8379607d31dded41868d58b66",
     "required":  false,
     "notes":  [
-                  "Copy Voice ID tự dò tên giọng từ catalog/API/ElevenLabs Library.,Lưu giọng mới bằng tên dễ đọc để chọn trong tab Phụ đề."
+                  "Copy Voice ID tự dò tên giọng từ catalog/API/ElevenLabs Library.",
+                  "Lưu giọng mới bằng tên dễ đọc để chọn trong tab Phụ đề."
               ]
 }
