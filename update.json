@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.8.5",
+    "version":  "1.8.6",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.5/AndrewSub-Patch-1.8.5.zip",
-    "sha256":  "7ecb60d1b494d33de10f824137bcae930c08372d8ca8954ee73e56bd4cba94f9",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.6/AndrewSub-Patch-1.8.6.zip",
+    "sha256":  "ee24ae2393d301d2469a76c11b338128aa6563413f9009e036d989bd2ec90ae7",
     "required":  false,
     "notes":  [
-                  "Sửa lỗi vỡ tiếng Việt trên giao diện do encoding và giữ cải thiện layout Xuất video/căn phụ đề."
+                  "Cố định nút Xuất video/Mở thư mục ở tab Xuất video; tự tải preview video khi mở tab; bỏ mô tả OCR thừa."
               ]
 }
