@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.8.7",
-    "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.7/AndrewSub-Patch-1.8.7.zip",
-    "sha256":  "0f4b4acb91772f73442ef9ba0ee12028561572111184bcebb868dc0fa8e90392",
-    "required":  false,
-    "notes":  [
-                  "Gọn lại tab Xuất video: gom thiết lập nâng cao; thêm kiểm tra nhanh trước khi xuất; dọn lỗi font còn sót ở kiểm tra key/tách âm."
-              ]
+  "version": "1.8.8",
+  "type": "patch",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.8/AndrewSub-Patch-1.8.8.zip",
+  "sha256": "f72937c4db74b1d344fd67c4320cf4f1c0e1392cf00a5d834a0dea8485f91f7e",
+  "required": false,
+  "notes": [
+    "Thêm thanh tua video trong cửa sổ khoanh vùng phụ đề để chọn đúng đoạn có sub cứng trước khi khoanh vùng."
+  ]
 }

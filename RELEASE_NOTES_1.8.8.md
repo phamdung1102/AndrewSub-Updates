@@ -1,0 +1,3 @@
+﻿- Thêm thanh tua video trong cửa sổ khoanh vùng phụ đề.
+- Có thể kéo tới đúng đoạn có sub cứng rồi lấy khung tại timestamp đó.
+- Giữ nút đổi khung cũ để nhảy nhanh qua các mốc có sẵn.
