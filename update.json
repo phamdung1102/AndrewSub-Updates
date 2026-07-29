@@ -1,10 +1,10 @@
 ﻿{
-  "version": "1.8.8",
-  "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.8/AndrewSub-Patch-1.8.8.zip",
-  "sha256": "f72937c4db74b1d344fd67c4320cf4f1c0e1392cf00a5d834a0dea8485f91f7e",
-  "required": false,
-  "notes": [
-    "Thêm thanh tua video trong cửa sổ khoanh vùng phụ đề để chọn đúng đoạn có sub cứng trước khi khoanh vùng."
-  ]
+    "version":  "1.8.9",
+    "type":  "patch",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.9/AndrewSub-Patch-1.8.9.zip",
+    "sha256":  "044c87b7d6eec5ac894108d01dae8fbfef91b5c3dd50531bf0bd6ce1decdc5d1",
+    "required":  false,
+    "notes":  [
+                  "Giữ phụ đề OCR ngắn tốt hơn để tránh gộp lời thoại nhanh; tăng mặc định lô dịch lên 500 dòng."
+              ]
 }

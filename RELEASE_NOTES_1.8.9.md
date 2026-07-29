@@ -1,0 +1,3 @@
+﻿- Giữ phụ đề OCR ngắn tốt hơn, giảm gộp sai lời thoại nhanh 1-4 chữ.
+- Siết xoá/gộp near-miss để ưu tiên không mất câu ngắn.
+- Tăng mặc định lô dịch lên 500 dòng; UI cho phép chọn tới 1000 dòng/lô.
