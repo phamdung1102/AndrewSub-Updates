@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "1.8.9",
+    "version":  "2.0.2",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v1.8.9/AndrewSub-Patch-1.8.9.zip",
-    "sha256":  "044c87b7d6eec5ac894108d01dae8fbfef91b5c3dd50531bf0bd6ce1decdc5d1",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.2/AndrewSub-Patch-2.0.2.zip",
+    "sha256":  "aa6a357bd80b61c08ecfa5ec4404809ab0065702b7c08d8670c1d32d354f1538",
     "required":  false,
     "notes":  [
-                  "Giữ phụ đề OCR ngắn tốt hơn để tránh gộp lời thoại nhanh; tăng mặc định lô dịch lên 500 dòng."
+                  "Sửa tách câu âm thanh bị xé vụn do VAD,Cân lại câu tiếng Trung về ngưỡng ổn định,Loại lô âm thanh đuôi giả gây treo tiến trình"
               ]
 }
