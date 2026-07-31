@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "2.0.4",
+    "version":  "2.0.5",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.4/AndrewSub-Patch-2.0.4.zip",
-    "sha256":  "172a9f5debbe801d9cdb6421bf0eb416bb38cbdfe424e015494ff7e292a1c950",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.5/AndrewSub-Patch-2.0.5.zip",
+    "sha256":  "7f1588d5838a8fe5b9cb14281418054667effd3754712b10e160f4874ebebee2",
     "required":  false,
     "notes":  [
-                  "Thanh trạng thái hiển thị công việc đang thực hiện kèm thời gian chạy, không hiện chi tiết kỹ thuật."
+                  "Đồng bộ bộ nhận diện phụ đề và xử lý OCR ổn định trên mọi máy; thanh trạng thái hiển thị công việc kèm thời gian chạy."
               ]
 }
