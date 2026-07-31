@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "2.0.3",
+    "version":  "2.0.4",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.3/AndrewSub-Patch-2.0.3.zip",
-    "sha256":  "a189ff6ff6611f2188794e497de5abe51765a521d3443d441c55e876e8f7a3e2",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.4/AndrewSub-Patch-2.0.4.zip",
+    "sha256":  "172a9f5debbe801d9cdb6421bf0eb416bb38cbdfe424e015494ff7e292a1c950",
     "required":  false,
     "notes":  [
-                  "Thanh trạng thái dưới chỉ hiển thị công việc đang thực hiện, không hiện chi tiết kỹ thuật."
+                  "Thanh trạng thái hiển thị công việc đang thực hiện kèm thời gian chạy, không hiện chi tiết kỹ thuật."
               ]
 }
