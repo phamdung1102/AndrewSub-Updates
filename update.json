@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "2.0.2",
+    "version":  "2.0.3",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.2/AndrewSub-Patch-2.0.2.zip",
-    "sha256":  "aa6a357bd80b61c08ecfa5ec4404809ab0065702b7c08d8670c1d32d354f1538",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.3/AndrewSub-Patch-2.0.3.zip",
+    "sha256":  "a189ff6ff6611f2188794e497de5abe51765a521d3443d441c55e876e8f7a3e2",
     "required":  false,
     "notes":  [
-                  "Sửa tách câu âm thanh bị xé vụn do VAD,Cân lại câu tiếng Trung về ngưỡng ổn định,Loại lô âm thanh đuôi giả gây treo tiến trình"
+                  "Thanh trạng thái dưới chỉ hiển thị công việc đang thực hiện, không hiện chi tiết kỹ thuật."
               ]
 }
