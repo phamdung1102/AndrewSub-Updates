@@ -1,10 +1,10 @@
 ﻿{
-    "version":  "2.0.5",
+    "version":  "2.0.8",
     "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.5/AndrewSub-Patch-2.0.5.zip",
-    "sha256":  "7f1588d5838a8fe5b9cb14281418054667effd3754712b10e160f4874ebebee2",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.8/AndrewSub-Patch-2.0.8.zip",
+    "sha256":  "7c761252257a3c763f80bb1053c25385b288e6cd0ba71cd378910f16c0fad7e4",
     "required":  false,
     "notes":  [
-                  "Đồng bộ bộ nhận diện phụ đề và xử lý OCR ổn định trên mọi máy; thanh trạng thái hiển thị công việc kèm thời gian chạy."
+                  "Tối ưu giao diện tự co giãn theo màn hình; tránh chèn hoặc mất nút trên máy có độ phân giải thấp."
               ]
 }
