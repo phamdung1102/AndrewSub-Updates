@@ -1,12 +1,12 @@
 {
-    "version": "2.0.10",
-    "type": "patch",
-    "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.10/AndrewSub-Patch-2.0.10.zip",
-    "sha256": "498e00a7150fa25669fe5c16d5e9b233f766e7c1b01ec61d87e2a1ff9ee401a3",
-    "required": false,
-    "notes": [
-        "Hiển thị phần trăm tiến độ làm việc theo dữ liệu thực.",
-        "Hiển thị thời gian đã chạy và thời gian còn lại ước tính.",
-        "Hàng loạt hiển thị tiến độ riêng cho từng dự án."
-    ]
+  "version": "2.1.0",
+  "type": "patch",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.1.0/AndrewSub-Patch-2.1.0.zip",
+  "sha256": "e62c4ae45ec02ec684e4d06d653bfd300b75bc2c4d5a9d522fbb11b4e4083059",
+  "required": false,
+  "notes": [
+    "Thêm và quản lý linh hoạt nhiều tài khoản dịch.",
+    "Gỡ giới hạn 4 phiên; các tài khoản sẵn sàng chia lô dịch song song.",
+    "Giữ nguyên profile và trạng thái đăng nhập của các tài khoản cũ."
+  ]
 }
