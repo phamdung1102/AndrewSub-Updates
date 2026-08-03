@@ -1,10 +1,12 @@
-﻿{
-    "version":  "2.0.8",
-    "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.8/AndrewSub-Patch-2.0.8.zip",
-    "sha256":  "7c761252257a3c763f80bb1053c25385b288e6cd0ba71cd378910f16c0fad7e4",
-    "required":  false,
-    "notes":  [
-                  "Tối ưu giao diện tự co giãn theo màn hình; tránh chèn hoặc mất nút trên máy có độ phân giải thấp."
-              ]
+{
+    "version": "2.0.10",
+    "type": "patch",
+    "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.0.10/AndrewSub-Patch-2.0.10.zip",
+    "sha256": "498e00a7150fa25669fe5c16d5e9b233f766e7c1b01ec61d87e2a1ff9ee401a3",
+    "required": false,
+    "notes": [
+        "Hiển thị phần trăm tiến độ làm việc theo dữ liệu thực.",
+        "Hiển thị thời gian đã chạy và thời gian còn lại ước tính.",
+        "Hàng loạt hiển thị tiến độ riêng cho từng dự án."
+    ]
 }
