@@ -1,12 +1,12 @@
 {
-  "version": "2.1.6",
+  "version": "2.1.7",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.1.6/AndrewSub-Patch-2.1.6.zip",
-  "sha256": "b3b2d31f8f808b22569594aac3096141d768b2ff6314b3c78169cbbb321cc5f9",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.1.7/AndrewSub-Patch-2.1.7.zip",
+  "sha256": "974444f6e93f2643da65627c9894100b58aa7c7e0dc13268817726fbf51165a9",
   "required": false,
   "notes": [
-    "Hai lựa chọn nhận diện cho hình ảnh và âm thanh.",
-    "Tự chuyển nguồn dự phòng khi lỗi.",
-    "Đồng bộ nguồn xử lý trong quy trình hàng loạt."
+    "Làm rõ lựa chọn nguồn xử lý bằng hai nút tách biệt.",
+    "Hiển thị dấu chọn và màu trạng thái rõ ràng.",
+    "Tách riêng trạng thái tự chuyển nguồn khi gặp lỗi."
   ]
 }
