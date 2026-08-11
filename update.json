@@ -1,12 +1,12 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.6",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.1.0/AndrewSub-Patch-2.1.0.zip",
-  "sha256": "e62c4ae45ec02ec684e4d06d653bfd300b75bc2c4d5a9d522fbb11b4e4083059",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.1.6/AndrewSub-Patch-2.1.6.zip",
+  "sha256": "b3b2d31f8f808b22569594aac3096141d768b2ff6314b3c78169cbbb321cc5f9",
   "required": false,
   "notes": [
-    "Thêm và quản lý linh hoạt nhiều tài khoản dịch.",
-    "Gỡ giới hạn 4 phiên; các tài khoản sẵn sàng chia lô dịch song song.",
-    "Giữ nguyên profile và trạng thái đăng nhập của các tài khoản cũ."
+    "Hai lựa chọn nhận diện cho hình ảnh và âm thanh.",
+    "Tự chuyển nguồn dự phòng khi lỗi.",
+    "Đồng bộ nguồn xử lý trong quy trình hàng loạt."
   ]
 }
