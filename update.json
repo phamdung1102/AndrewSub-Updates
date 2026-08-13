@@ -1,10 +1,12 @@
-﻿{
-    "version":  "2.2.1",
-    "type":  "patch",
-    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.2.1/AndrewSub-Patch-2.2.1.zip",
-    "sha256":  "c550abfd47b774eea40e663976696fa0c5724509a7cb520419e2393642fca540",
-    "required":  false,
-    "notes":  [
-                  "Sửa tiến độ tạo giọng đứng ở 2% dù file đã hoàn tất,Không hiển thị ETA sai trong giai đoạn khởi động,Giữ nguyên CapCut 4 luồng, mỗi lô 15 câu"
-              ]
+{
+  "version": "2.2.1",
+  "type": "patch",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.2.1/AndrewSub-Patch-2.2.1.zip",
+  "sha256": "c550abfd47b774eea40e663976696fa0c5724509a7cb520419e2393642fca540",
+  "required": false,
+  "notes": [
+    "Sửa tiến độ tạo giọng đứng ở 2% dù file đã hoàn tất.",
+    "Không hiển thị ETA sai trong giai đoạn khởi động.",
+    "Giữ nguyên CapCut 4 luồng, mỗi lô 15 câu."
+  ]
 }
