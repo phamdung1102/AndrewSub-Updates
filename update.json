@@ -1,12 +1,10 @@
-{
-  "version": "2.1.7",
-  "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.1.7/AndrewSub-Patch-2.1.7.zip",
-  "sha256": "974444f6e93f2643da65627c9894100b58aa7c7e0dc13268817726fbf51165a9",
-  "required": false,
-  "notes": [
-    "Làm rõ lựa chọn nguồn xử lý bằng hai nút tách biệt.",
-    "Hiển thị dấu chọn và màu trạng thái rõ ràng.",
-    "Tách riêng trạng thái tự chuyển nguồn khi gặp lỗi."
-  ]
+﻿{
+    "version":  "2.2.1",
+    "type":  "patch",
+    "url":  "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.2.1/AndrewSub-Patch-2.2.1.zip",
+    "sha256":  "c550abfd47b774eea40e663976696fa0c5724509a7cb520419e2393642fca540",
+    "required":  false,
+    "notes":  [
+                  "Sửa tiến độ tạo giọng đứng ở 2% dù file đã hoàn tất,Không hiển thị ETA sai trong giai đoạn khởi động,Giữ nguyên CapCut 4 luồng, mỗi lô 15 câu"
+              ]
 }
