@@ -1,12 +1,12 @@
 {
-  "version": "2.2.1",
+  "version": "2.2.4",
   "type": "patch",
-  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.2.1/AndrewSub-Patch-2.2.1.zip",
-  "sha256": "c550abfd47b774eea40e663976696fa0c5724509a7cb520419e2393642fca540",
+  "url": "https://github.com/phamdung1102/AndrewSub-Updates/releases/download/v2.2.4/AndrewSub-Patch-2.2.4.zip",
+  "sha256": "806c7687d2fce519ba902e2371f920284062d4bb9f932cf5a365d81a72705618",
   "required": false,
   "notes": [
-    "Sửa tiến độ tạo giọng đứng ở 2% dù file đã hoàn tất.",
-    "Không hiển thị ETA sai trong giai đoạn khởi động.",
-    "Giữ nguyên CapCut 4 luồng, mỗi lô 15 câu."
+    "Khôi phục cơ chế detector và phân đoạn phụ đề ổn định từ bản 2.1.8.",
+    "Giảm candidate OCR rỗng và tránh tách vụn các câu CJK ngắn.",
+    "Khôi phục cách chia lô ASR và xử lý track phụ đề cực ngắn đã được kiểm chứng."
   ]
 }
